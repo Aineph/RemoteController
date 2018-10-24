@@ -129,6 +129,10 @@
 		<Unit filename="/Users/nicolas/Documents/Pangolin/RemoteControl/include/RemoteController.hh">
 			<Option target="RemoteControl"/>
 		</Unit>
+		<Unit filename="/Users/nicolas/Documents/Pangolin/RemoteControl/src/LineParser.cpp">
+			<Option target="RemoteTarget"/>
+			<Option target="RemoteControl"/>
+		</Unit>
 		<Unit filename="/Users/nicolas/Documents/Pangolin/RemoteControl/src/RemoteControlException.cpp">
 			<Option target="RemoteTarget"/>
 			<Option target="RemoteControl"/>
@@ -138,9 +142,6 @@
 		</Unit>
 		<Unit filename="/Users/nicolas/Documents/Pangolin/RemoteControl/src/client/main.cpp">
 			<Option target="RemoteTarget"/>
-		</Unit>
-		<Unit filename="/Users/nicolas/Documents/Pangolin/RemoteControl/src/server/LineParser.cpp">
-			<Option target="RemoteControl"/>
 		</Unit>
 		<Unit filename="/Users/nicolas/Documents/Pangolin/RemoteControl/src/server/RemoteController.cpp">
 			<Option target="RemoteControl"/>

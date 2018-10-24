@@ -3,7 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/RemoteControl.dir/src/server/Server.cpp.o"
   "CMakeFiles/RemoteControl.dir/src/RemoteControlException.cpp.o"
   "CMakeFiles/RemoteControl.dir/src/server/ServerCommand.cpp.o"
-  "CMakeFiles/RemoteControl.dir/src/server/LineParser.cpp.o"
+  "CMakeFiles/RemoteControl.dir/src/LineParser.cpp.o"
   "CMakeFiles/RemoteControl.dir/src/server/RemoteController.cpp.o"
   "RemoteControl.pdb"
   "RemoteControl"

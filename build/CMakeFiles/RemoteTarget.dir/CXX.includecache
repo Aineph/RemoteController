@@ -8,6 +8,8 @@
 
 ../include/Client.hh
 
+../include/LineParser.hh
+
 ../include/RemoteControl.hh
 
 ../include/RemoteControlException.hpp
@@ -35,6 +37,16 @@ sstream
 -
 vector
 -
+LineParser.hh
+-
 Client.hh
 /Users/nicolas/Documents/Pangolin/RemoteControl/src/client/Client.hh
+
+/Users/nicolas/Documents/Pangolin/RemoteControl/src/client/main.cpp
+iostream
+-
+Client.hh
+-
+RemoteControlException.hpp
+-
 

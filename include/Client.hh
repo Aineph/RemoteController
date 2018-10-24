@@ -26,8 +26,6 @@ public:
 
     void run();
 
-    void readContent();
-
     struct sockaddr_in *getAddr() const;
 
     void setAddr(struct sockaddr_in *addr);

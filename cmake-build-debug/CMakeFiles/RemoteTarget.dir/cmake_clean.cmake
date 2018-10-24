@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/RemoteTarget.dir/src/client/main.cpp.o"
   "CMakeFiles/RemoteTarget.dir/src/client/Client.cpp.o"
   "CMakeFiles/RemoteTarget.dir/src/RemoteControlException.cpp.o"
+  "CMakeFiles/RemoteTarget.dir/src/LineParser.cpp.o"
   "RemoteTarget.pdb"
   "RemoteTarget"
 )

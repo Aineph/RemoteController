@@ -14,6 +14,7 @@
 #include <iostream>
 #include <sstream>
 #include <vector>
+#include <LineParser.hh>
 #include "Client.hh"
 
 Client::Client(std::string const &serverAddress)
@@ -44,6 +45,8 @@ Client::Client(std::string const &serverAddress)
     std::cout << this->getServerAddress().c_str() << std::endl;
     if (connect(this->getFd(), (struct sockaddr *) this->getAddr(), sizeof(*(this->getAddr()))) == -1)
         throw RemoteControlException(CONNECT_ERROR);
+    if (dup2(this->getFd(), 0) == -1)
+        throw RemoteControlException(DUP2_ERROR);
     if (dup2(this->getFd(), 1) == -1)
         throw RemoteControlException(DUP2_ERROR);
 }
@@ -65,51 +68,18 @@ Client Client::operator=(Client const &other)
     return *this;
 }
 
-void Client::readContent()
-{
-    char buf[4096];
-    fd_set set;
-    ssize_t ret;
-    struct timeval timeout;
-    std::mutex mutex;
-    std::string data;
-
-    timeout.tv_sec = 0;
-    timeout.tv_usec = 10000;
-    FD_ZERO(&set);
-    FD_SET(this->getFd(), &set);
-    while (true)
-    {
-        if (select(this->getFd() + 1, &set, NULL, NULL, &timeout) > 0)
-        {
-            bzero(buf, sizeof(buf));
-            if ((ret = read(this->getFd(), buf, sizeof(buf))) < 0)
-                break;
-            buf[ret] = '\0';
-            if (buf[0] == '\0')
-                break;
-            data += buf;
-        }
-        else
-            break;
-    }
-    std::stringstream stream = std::stringstream(data);
-    std::vector<std::string> words;
-    std::string word;
-    while (stream >> word)
-        words.push_back(word);
-    if (words.size() == 2 && words[0] == "cd")
-        chdir(words[1].c_str());
-    else if (!data.empty())
-        system(data.c_str());
-}
-
 void Client::run()
 {
+    LineParser lineParser;
+
     this->setRunningStatus(true);
     while (this->getRunningStatus())
     {
-        this->readContent();
+        lineParser.getUserEntry();
+        if (lineParser.getWords().size() == 2 && lineParser.getWords()[0] == "cd")
+            chdir(lineParser.getWords()[1].c_str());
+        else if (!lineParser.getLine().empty())
+            system(lineParser.getLine().c_str());
     }
 }
 

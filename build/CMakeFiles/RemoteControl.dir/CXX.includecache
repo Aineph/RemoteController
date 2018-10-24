@@ -8,13 +8,7 @@
 
 ../include/LineParser.hh
 
-../include/RemoteControl.hh
-
-../include/Server.hh
-
-../include/ServerCommand.hh
-
-/Users/nicolas/Documents/Pangolin/RemoteControl/src/server/LineParser.cpp
+/Users/nicolas/Documents/Pangolin/RemoteControl/src/LineParser.cpp
 string
 -
 sstream
@@ -24,25 +18,5 @@ vector
 iostream
 -
 LineParser.hh
-/Users/nicolas/Documents/Pangolin/RemoteControl/src/server/LineParser.hh
-
-/Users/nicolas/Documents/Pangolin/RemoteControl/src/server/ServerCommand.cpp
-string
--
-map
--
-vector
--
-LineParser.hh
--
-zconf.h
--
-iostream
--
-RemoteControl.hh
--
-Server.hh
-/Users/nicolas/Documents/Pangolin/RemoteControl/src/server/Server.hh
-ServerCommand.hh
-/Users/nicolas/Documents/Pangolin/RemoteControl/src/server/ServerCommand.hh
+/Users/nicolas/Documents/Pangolin/RemoteControl/src/LineParser.hh
 

@@ -136,6 +136,36 @@ RemoteControl/fast:
 	$(MAKE) -f CMakeFiles/RemoteControl.dir/build.make CMakeFiles/RemoteControl.dir/build
 .PHONY : RemoteControl/fast
 
+src/LineParser.o: src/LineParser.cpp.o
+
+.PHONY : src/LineParser.o
+
+# target to build an object file
+src/LineParser.cpp.o:
+	$(MAKE) -f CMakeFiles/RemoteTarget.dir/build.make CMakeFiles/RemoteTarget.dir/src/LineParser.cpp.o
+	$(MAKE) -f CMakeFiles/RemoteControl.dir/build.make CMakeFiles/RemoteControl.dir/src/LineParser.cpp.o
+.PHONY : src/LineParser.cpp.o
+
+src/LineParser.i: src/LineParser.cpp.i
+
+.PHONY : src/LineParser.i
+
+# target to preprocess a source file
+src/LineParser.cpp.i:
+	$(MAKE) -f CMakeFiles/RemoteTarget.dir/build.make CMakeFiles/RemoteTarget.dir/src/LineParser.cpp.i
+	$(MAKE) -f CMakeFiles/RemoteControl.dir/build.make CMakeFiles/RemoteControl.dir/src/LineParser.cpp.i
+.PHONY : src/LineParser.cpp.i
+
+src/LineParser.s: src/LineParser.cpp.s
+
+.PHONY : src/LineParser.s
+
+# target to generate assembly for a file
+src/LineParser.cpp.s:
+	$(MAKE) -f CMakeFiles/RemoteTarget.dir/build.make CMakeFiles/RemoteTarget.dir/src/LineParser.cpp.s
+	$(MAKE) -f CMakeFiles/RemoteControl.dir/build.make CMakeFiles/RemoteControl.dir/src/LineParser.cpp.s
+.PHONY : src/LineParser.cpp.s
+
 src/RemoteControlException.o: src/RemoteControlException.cpp.o
 
 .PHONY : src/RemoteControlException.o
@@ -219,33 +249,6 @@ src/client/main.s: src/client/main.cpp.s
 src/client/main.cpp.s:
 	$(MAKE) -f CMakeFiles/RemoteTarget.dir/build.make CMakeFiles/RemoteTarget.dir/src/client/main.cpp.s
 .PHONY : src/client/main.cpp.s
-
-src/server/LineParser.o: src/server/LineParser.cpp.o
-
-.PHONY : src/server/LineParser.o
-
-# target to build an object file
-src/server/LineParser.cpp.o:
-	$(MAKE) -f CMakeFiles/RemoteControl.dir/build.make CMakeFiles/RemoteControl.dir/src/server/LineParser.cpp.o
-.PHONY : src/server/LineParser.cpp.o
-
-src/server/LineParser.i: src/server/LineParser.cpp.i
-
-.PHONY : src/server/LineParser.i
-
-# target to preprocess a source file
-src/server/LineParser.cpp.i:
-	$(MAKE) -f CMakeFiles/RemoteControl.dir/build.make CMakeFiles/RemoteControl.dir/src/server/LineParser.cpp.i
-.PHONY : src/server/LineParser.cpp.i
-
-src/server/LineParser.s: src/server/LineParser.cpp.s
-
-.PHONY : src/server/LineParser.s
-
-# target to generate assembly for a file
-src/server/LineParser.cpp.s:
-	$(MAKE) -f CMakeFiles/RemoteControl.dir/build.make CMakeFiles/RemoteControl.dir/src/server/LineParser.cpp.s
-.PHONY : src/server/LineParser.cpp.s
 
 src/server/RemoteController.o: src/server/RemoteController.cpp.o
 
@@ -365,6 +368,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... RemoteTarget"
 	@echo "... RemoteControl"
+	@echo "... src/LineParser.o"
+	@echo "... src/LineParser.i"
+	@echo "... src/LineParser.s"
 	@echo "... src/RemoteControlException.o"
 	@echo "... src/RemoteControlException.i"
 	@echo "... src/RemoteControlException.s"
@@ -374,9 +380,6 @@ help:
 	@echo "... src/client/main.o"
 	@echo "... src/client/main.i"
 	@echo "... src/client/main.s"
-	@echo "... src/server/LineParser.o"
-	@echo "... src/server/LineParser.i"
-	@echo "... src/server/LineParser.s"
 	@echo "... src/server/RemoteController.o"
 	@echo "... src/server/RemoteController.i"
 	@echo "... src/server/RemoteController.s"

@@ -109,18 +109,18 @@ CMakeFiles/RemoteControl.dir/src/server/ServerCommand.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RemoteControl.dir/src/server/ServerCommand.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nicolas/Documents/Pangolin/RemoteControl/src/server/ServerCommand.cpp -o CMakeFiles/RemoteControl.dir/src/server/ServerCommand.cpp.s
 
-CMakeFiles/RemoteControl.dir/src/server/LineParser.cpp.o: CMakeFiles/RemoteControl.dir/flags.make
-CMakeFiles/RemoteControl.dir/src/server/LineParser.cpp.o: ../src/server/LineParser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nicolas/Documents/Pangolin/RemoteControl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/RemoteControl.dir/src/server/LineParser.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RemoteControl.dir/src/server/LineParser.cpp.o -c /Users/nicolas/Documents/Pangolin/RemoteControl/src/server/LineParser.cpp
+CMakeFiles/RemoteControl.dir/src/LineParser.cpp.o: CMakeFiles/RemoteControl.dir/flags.make
+CMakeFiles/RemoteControl.dir/src/LineParser.cpp.o: ../src/LineParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nicolas/Documents/Pangolin/RemoteControl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/RemoteControl.dir/src/LineParser.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RemoteControl.dir/src/LineParser.cpp.o -c /Users/nicolas/Documents/Pangolin/RemoteControl/src/LineParser.cpp
 
-CMakeFiles/RemoteControl.dir/src/server/LineParser.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RemoteControl.dir/src/server/LineParser.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nicolas/Documents/Pangolin/RemoteControl/src/server/LineParser.cpp > CMakeFiles/RemoteControl.dir/src/server/LineParser.cpp.i
+CMakeFiles/RemoteControl.dir/src/LineParser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RemoteControl.dir/src/LineParser.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nicolas/Documents/Pangolin/RemoteControl/src/LineParser.cpp > CMakeFiles/RemoteControl.dir/src/LineParser.cpp.i
 
-CMakeFiles/RemoteControl.dir/src/server/LineParser.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RemoteControl.dir/src/server/LineParser.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nicolas/Documents/Pangolin/RemoteControl/src/server/LineParser.cpp -o CMakeFiles/RemoteControl.dir/src/server/LineParser.cpp.s
+CMakeFiles/RemoteControl.dir/src/LineParser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RemoteControl.dir/src/LineParser.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nicolas/Documents/Pangolin/RemoteControl/src/LineParser.cpp -o CMakeFiles/RemoteControl.dir/src/LineParser.cpp.s
 
 CMakeFiles/RemoteControl.dir/src/server/RemoteController.cpp.o: CMakeFiles/RemoteControl.dir/flags.make
 CMakeFiles/RemoteControl.dir/src/server/RemoteController.cpp.o: ../src/server/RemoteController.cpp
@@ -141,7 +141,7 @@ RemoteControl_OBJECTS = \
 "CMakeFiles/RemoteControl.dir/src/server/Server.cpp.o" \
 "CMakeFiles/RemoteControl.dir/src/RemoteControlException.cpp.o" \
 "CMakeFiles/RemoteControl.dir/src/server/ServerCommand.cpp.o" \
-"CMakeFiles/RemoteControl.dir/src/server/LineParser.cpp.o" \
+"CMakeFiles/RemoteControl.dir/src/LineParser.cpp.o" \
 "CMakeFiles/RemoteControl.dir/src/server/RemoteController.cpp.o"
 
 # External object files for target RemoteControl
@@ -151,7 +151,7 @@ RemoteControl: CMakeFiles/RemoteControl.dir/src/server/main.cpp.o
 RemoteControl: CMakeFiles/RemoteControl.dir/src/server/Server.cpp.o
 RemoteControl: CMakeFiles/RemoteControl.dir/src/RemoteControlException.cpp.o
 RemoteControl: CMakeFiles/RemoteControl.dir/src/server/ServerCommand.cpp.o
-RemoteControl: CMakeFiles/RemoteControl.dir/src/server/LineParser.cpp.o
+RemoteControl: CMakeFiles/RemoteControl.dir/src/LineParser.cpp.o
 RemoteControl: CMakeFiles/RemoteControl.dir/src/server/RemoteController.cpp.o
 RemoteControl: CMakeFiles/RemoteControl.dir/build.make
 RemoteControl: CMakeFiles/RemoteControl.dir/link.txt
