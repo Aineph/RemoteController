@@ -8,11 +8,33 @@
 
 ../include/Client.hh
 
-/Users/nicolas/Documents/Pangolin/RemoteControl/src/client/Client.cpp
-Client.hh
-/Users/nicolas/Documents/Pangolin/RemoteControl/src/client/Client.hh
+../include/RemoteControl.hh
 
-/Users/nicolas/Documents/Pangolin/RemoteControl/src/client/main.cpp
+../include/RemoteControlException.hpp
+
+/Users/nicolas/Documents/Pangolin/RemoteControl/src/client/Client.cpp
+RemoteControl.hh
+-
+string
+-
+RemoteControlException.hpp
+-
+sys/socket.h
+-
+arpa/inet.h
+-
+netdb.h
+-
+zconf.h
+-
+mutex
+-
 iostream
 -
+sstream
+-
+vector
+-
+Client.hh
+/Users/nicolas/Documents/Pangolin/RemoteControl/src/client/Client.hh
 

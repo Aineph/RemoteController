@@ -142,6 +142,7 @@ src/RemoteControlException.o: src/RemoteControlException.cpp.o
 
 # target to build an object file
 src/RemoteControlException.cpp.o:
+	$(MAKE) -f CMakeFiles/RemoteTarget.dir/build.make CMakeFiles/RemoteTarget.dir/src/RemoteControlException.cpp.o
 	$(MAKE) -f CMakeFiles/RemoteControl.dir/build.make CMakeFiles/RemoteControl.dir/src/RemoteControlException.cpp.o
 .PHONY : src/RemoteControlException.cpp.o
 
@@ -151,6 +152,7 @@ src/RemoteControlException.i: src/RemoteControlException.cpp.i
 
 # target to preprocess a source file
 src/RemoteControlException.cpp.i:
+	$(MAKE) -f CMakeFiles/RemoteTarget.dir/build.make CMakeFiles/RemoteTarget.dir/src/RemoteControlException.cpp.i
 	$(MAKE) -f CMakeFiles/RemoteControl.dir/build.make CMakeFiles/RemoteControl.dir/src/RemoteControlException.cpp.i
 .PHONY : src/RemoteControlException.cpp.i
 
@@ -160,6 +162,7 @@ src/RemoteControlException.s: src/RemoteControlException.cpp.s
 
 # target to generate assembly for a file
 src/RemoteControlException.cpp.s:
+	$(MAKE) -f CMakeFiles/RemoteTarget.dir/build.make CMakeFiles/RemoteTarget.dir/src/RemoteControlException.cpp.s
 	$(MAKE) -f CMakeFiles/RemoteControl.dir/build.make CMakeFiles/RemoteControl.dir/src/RemoteControlException.cpp.s
 .PHONY : src/RemoteControlException.cpp.s
 
@@ -298,6 +301,33 @@ src/server/Server.cpp.s:
 	$(MAKE) -f CMakeFiles/RemoteControl.dir/build.make CMakeFiles/RemoteControl.dir/src/server/Server.cpp.s
 .PHONY : src/server/Server.cpp.s
 
+src/server/ServerCommand.o: src/server/ServerCommand.cpp.o
+
+.PHONY : src/server/ServerCommand.o
+
+# target to build an object file
+src/server/ServerCommand.cpp.o:
+	$(MAKE) -f CMakeFiles/RemoteControl.dir/build.make CMakeFiles/RemoteControl.dir/src/server/ServerCommand.cpp.o
+.PHONY : src/server/ServerCommand.cpp.o
+
+src/server/ServerCommand.i: src/server/ServerCommand.cpp.i
+
+.PHONY : src/server/ServerCommand.i
+
+# target to preprocess a source file
+src/server/ServerCommand.cpp.i:
+	$(MAKE) -f CMakeFiles/RemoteControl.dir/build.make CMakeFiles/RemoteControl.dir/src/server/ServerCommand.cpp.i
+.PHONY : src/server/ServerCommand.cpp.i
+
+src/server/ServerCommand.s: src/server/ServerCommand.cpp.s
+
+.PHONY : src/server/ServerCommand.s
+
+# target to generate assembly for a file
+src/server/ServerCommand.cpp.s:
+	$(MAKE) -f CMakeFiles/RemoteControl.dir/build.make CMakeFiles/RemoteControl.dir/src/server/ServerCommand.cpp.s
+.PHONY : src/server/ServerCommand.cpp.s
+
 src/server/main.o: src/server/main.cpp.o
 
 .PHONY : src/server/main.o
@@ -353,6 +383,9 @@ help:
 	@echo "... src/server/Server.o"
 	@echo "... src/server/Server.i"
 	@echo "... src/server/Server.s"
+	@echo "... src/server/ServerCommand.o"
+	@echo "... src/server/ServerCommand.i"
+	@echo "... src/server/ServerCommand.s"
 	@echo "... src/server/main.o"
 	@echo "... src/server/main.i"
 	@echo "... src/server/main.s"

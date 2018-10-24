@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/nicolas/Documents/Pangolin/RemoteControl/src/RemoteControlException.cpp" "/Users/nicolas/Documents/Pangolin/RemoteControl/cmake-build-debug/CMakeFiles/RemoteTarget.dir/src/RemoteControlException.cpp.o"
   "/Users/nicolas/Documents/Pangolin/RemoteControl/src/client/Client.cpp" "/Users/nicolas/Documents/Pangolin/RemoteControl/cmake-build-debug/CMakeFiles/RemoteTarget.dir/src/client/Client.cpp.o"
   "/Users/nicolas/Documents/Pangolin/RemoteControl/src/client/main.cpp" "/Users/nicolas/Documents/Pangolin/RemoteControl/cmake-build-debug/CMakeFiles/RemoteTarget.dir/src/client/main.cpp.o"
   )

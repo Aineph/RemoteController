@@ -3,6 +3,7 @@
 #include <vector>
 #include <LineParser.hh>
 #include <Server.hh>
+#include <ServerCommand.hh>
 #include <RemoteControlException.hpp>
 
 int main()

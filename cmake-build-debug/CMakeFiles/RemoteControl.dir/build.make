@@ -129,9 +129,33 @@ CMakeFiles/RemoteControl.dir/src/RemoteControlException.cpp.o.provides: CMakeFil
 CMakeFiles/RemoteControl.dir/src/RemoteControlException.cpp.o.provides.build: CMakeFiles/RemoteControl.dir/src/RemoteControlException.cpp.o
 
 
+CMakeFiles/RemoteControl.dir/src/server/ServerCommand.cpp.o: CMakeFiles/RemoteControl.dir/flags.make
+CMakeFiles/RemoteControl.dir/src/server/ServerCommand.cpp.o: ../src/server/ServerCommand.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nicolas/Documents/Pangolin/RemoteControl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/RemoteControl.dir/src/server/ServerCommand.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RemoteControl.dir/src/server/ServerCommand.cpp.o -c /Users/nicolas/Documents/Pangolin/RemoteControl/src/server/ServerCommand.cpp
+
+CMakeFiles/RemoteControl.dir/src/server/ServerCommand.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RemoteControl.dir/src/server/ServerCommand.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nicolas/Documents/Pangolin/RemoteControl/src/server/ServerCommand.cpp > CMakeFiles/RemoteControl.dir/src/server/ServerCommand.cpp.i
+
+CMakeFiles/RemoteControl.dir/src/server/ServerCommand.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RemoteControl.dir/src/server/ServerCommand.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nicolas/Documents/Pangolin/RemoteControl/src/server/ServerCommand.cpp -o CMakeFiles/RemoteControl.dir/src/server/ServerCommand.cpp.s
+
+CMakeFiles/RemoteControl.dir/src/server/ServerCommand.cpp.o.requires:
+
+.PHONY : CMakeFiles/RemoteControl.dir/src/server/ServerCommand.cpp.o.requires
+
+CMakeFiles/RemoteControl.dir/src/server/ServerCommand.cpp.o.provides: CMakeFiles/RemoteControl.dir/src/server/ServerCommand.cpp.o.requires
+	$(MAKE) -f CMakeFiles/RemoteControl.dir/build.make CMakeFiles/RemoteControl.dir/src/server/ServerCommand.cpp.o.provides.build
+.PHONY : CMakeFiles/RemoteControl.dir/src/server/ServerCommand.cpp.o.provides
+
+CMakeFiles/RemoteControl.dir/src/server/ServerCommand.cpp.o.provides.build: CMakeFiles/RemoteControl.dir/src/server/ServerCommand.cpp.o
+
+
 CMakeFiles/RemoteControl.dir/src/server/LineParser.cpp.o: CMakeFiles/RemoteControl.dir/flags.make
 CMakeFiles/RemoteControl.dir/src/server/LineParser.cpp.o: ../src/server/LineParser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nicolas/Documents/Pangolin/RemoteControl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/RemoteControl.dir/src/server/LineParser.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nicolas/Documents/Pangolin/RemoteControl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/RemoteControl.dir/src/server/LineParser.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RemoteControl.dir/src/server/LineParser.cpp.o -c /Users/nicolas/Documents/Pangolin/RemoteControl/src/server/LineParser.cpp
 
 CMakeFiles/RemoteControl.dir/src/server/LineParser.cpp.i: cmake_force
@@ -155,7 +179,7 @@ CMakeFiles/RemoteControl.dir/src/server/LineParser.cpp.o.provides.build: CMakeFi
 
 CMakeFiles/RemoteControl.dir/src/server/RemoteController.cpp.o: CMakeFiles/RemoteControl.dir/flags.make
 CMakeFiles/RemoteControl.dir/src/server/RemoteController.cpp.o: ../src/server/RemoteController.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nicolas/Documents/Pangolin/RemoteControl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/RemoteControl.dir/src/server/RemoteController.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nicolas/Documents/Pangolin/RemoteControl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/RemoteControl.dir/src/server/RemoteController.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RemoteControl.dir/src/server/RemoteController.cpp.o -c /Users/nicolas/Documents/Pangolin/RemoteControl/src/server/RemoteController.cpp
 
 CMakeFiles/RemoteControl.dir/src/server/RemoteController.cpp.i: cmake_force
@@ -182,6 +206,7 @@ RemoteControl_OBJECTS = \
 "CMakeFiles/RemoteControl.dir/src/server/main.cpp.o" \
 "CMakeFiles/RemoteControl.dir/src/server/Server.cpp.o" \
 "CMakeFiles/RemoteControl.dir/src/RemoteControlException.cpp.o" \
+"CMakeFiles/RemoteControl.dir/src/server/ServerCommand.cpp.o" \
 "CMakeFiles/RemoteControl.dir/src/server/LineParser.cpp.o" \
 "CMakeFiles/RemoteControl.dir/src/server/RemoteController.cpp.o"
 
@@ -191,11 +216,12 @@ RemoteControl_EXTERNAL_OBJECTS =
 RemoteControl: CMakeFiles/RemoteControl.dir/src/server/main.cpp.o
 RemoteControl: CMakeFiles/RemoteControl.dir/src/server/Server.cpp.o
 RemoteControl: CMakeFiles/RemoteControl.dir/src/RemoteControlException.cpp.o
+RemoteControl: CMakeFiles/RemoteControl.dir/src/server/ServerCommand.cpp.o
 RemoteControl: CMakeFiles/RemoteControl.dir/src/server/LineParser.cpp.o
 RemoteControl: CMakeFiles/RemoteControl.dir/src/server/RemoteController.cpp.o
 RemoteControl: CMakeFiles/RemoteControl.dir/build.make
 RemoteControl: CMakeFiles/RemoteControl.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/nicolas/Documents/Pangolin/RemoteControl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable RemoteControl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/nicolas/Documents/Pangolin/RemoteControl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable RemoteControl"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RemoteControl.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -206,6 +232,7 @@ CMakeFiles/RemoteControl.dir/build: RemoteControl
 CMakeFiles/RemoteControl.dir/requires: CMakeFiles/RemoteControl.dir/src/server/main.cpp.o.requires
 CMakeFiles/RemoteControl.dir/requires: CMakeFiles/RemoteControl.dir/src/server/Server.cpp.o.requires
 CMakeFiles/RemoteControl.dir/requires: CMakeFiles/RemoteControl.dir/src/RemoteControlException.cpp.o.requires
+CMakeFiles/RemoteControl.dir/requires: CMakeFiles/RemoteControl.dir/src/server/ServerCommand.cpp.o.requires
 CMakeFiles/RemoteControl.dir/requires: CMakeFiles/RemoteControl.dir/src/server/LineParser.cpp.o.requires
 CMakeFiles/RemoteControl.dir/requires: CMakeFiles/RemoteControl.dir/src/server/RemoteController.cpp.o.requires
 

@@ -13,8 +13,11 @@
 #define MALLOC_ERROR "Malloc failed"
 #define SOCKET_ERROR "Socket failed"
 #define FCNTL_ERROR "Fcntl failed"
+#define GETHOSTBYNAME_ERROR "Gethostbyname failed"
 #define BIND_ERROR "Bind failed"
 #define LISTEN_ERROR "Listen failed"
+#define CONNECT_ERROR "Connect failed"
 #define ACCEPT_ERROR "Accept failed"
+#define DUP2_ERROR "Dup2 failed"
 
 #endif /* !REMOTECONTROL_CLIENT_HPP */

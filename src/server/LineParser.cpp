@@ -47,10 +47,6 @@ void LineParser::getUserEntry()
     {
         this->words.push_back(word);
     }
-    if (!this->words.empty())
-    {
-        std::cout << this->getLine() << std::endl;
-    }
 }
 
 std::string const &LineParser::getLine() const

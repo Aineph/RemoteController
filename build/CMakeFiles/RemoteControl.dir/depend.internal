@@ -18,8 +18,15 @@ CMakeFiles/RemoteControl.dir/src/server/Server.cpp.o
  ../include/Server.hh
  ../include/ServerCommand.hh
  /Users/nicolas/Documents/Pangolin/RemoteControl/src/server/Server.cpp
+CMakeFiles/RemoteControl.dir/src/server/ServerCommand.cpp.o
+ ../include/LineParser.hh
+ ../include/RemoteControl.hh
+ ../include/Server.hh
+ ../include/ServerCommand.hh
+ /Users/nicolas/Documents/Pangolin/RemoteControl/src/server/ServerCommand.cpp
 CMakeFiles/RemoteControl.dir/src/server/main.cpp.o
  ../include/LineParser.hh
  ../include/RemoteControlException.hpp
  ../include/Server.hh
+ ../include/ServerCommand.hh
  /Users/nicolas/Documents/Pangolin/RemoteControl/src/server/main.cpp

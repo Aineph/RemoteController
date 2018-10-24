@@ -6,22 +6,20 @@
 #ifndef REMOTECONTROL_SERVERCOMMAND_HH
 #define REMOTECONTROL_SERVERCOMMAND_HH
 
-namespace ServerCommand
-{
-    typedef void (*Command)(std::vector <std::string>, Server *);
-}
-
 class ServerCommand
 {
+public:
+    typedef void (*Command)(std::vector<std::string> const&, Server *);
+
 private:
     std::string commandName;
 
-    ServerCommand::Command command;
+    Command command;
 
 public:
     ServerCommand();
 
-    ServerCommand(std::string const &commandName, ServerCommand::Command command);
+    ServerCommand(std::string const &commandName, Command command);
 
     ServerCommand(ServerCommand const &other);
 
@@ -29,13 +27,23 @@ public:
 
     ServerCommand &operator=(ServerCommand const &other);
 
+    void operator()(std::vector<std::string> const &arguments, Server *server) const;
+
+    static void execute(std::vector<ServerCommand> const &commands, LineParser lineParser, Server *server);
+
+    static void list(std::vector<std::string> const &arguments, Server *server);
+
+    static void attack(std::vector<std::string> const &arguments, Server *server);
+
+    static void exit(std::vector<std::string> const &arguments, Server *server);
+
     std::string const &getCommandName() const;
 
     void setCommandName(std::string const &commandName);
 
-    ServerCommand::Command getCommand() const;
+    Command getCommand() const;
 
-    void setCommand(ServerCommand::Command command);
+    void setCommand(Command command);
 };
 
 

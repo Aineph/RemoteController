@@ -33,7 +33,75 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d7e27ae-1c25-42ac-9f90-cca784afd24f" name="Default" comment="" />
+    <list default="true" id="7d7e27ae-1c25-42ac-9f90-cca784afd24f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/7" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/8" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/9" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/count.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/RemoteControl.dir/CXX.includecache" afterPath="$PROJECT_DIR$/build/CMakeFiles/RemoteControl.dir/CXX.includecache" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/RemoteControl.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/build/CMakeFiles/RemoteControl.dir/DependInfo.cmake" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/RemoteControl.dir/build.make" afterPath="$PROJECT_DIR$/build/CMakeFiles/RemoteControl.dir/build.make" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/RemoteControl.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/build/CMakeFiles/RemoteControl.dir/cmake_clean.cmake" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/RemoteControl.dir/depend.internal" afterPath="$PROJECT_DIR$/build/CMakeFiles/RemoteControl.dir/depend.internal" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/RemoteControl.dir/depend.make" afterPath="$PROJECT_DIR$/build/CMakeFiles/RemoteControl.dir/depend.make" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/RemoteControl.dir/link.txt" afterPath="$PROJECT_DIR$/build/CMakeFiles/RemoteControl.dir/link.txt" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/RemoteControl.dir/progress.make" afterPath="$PROJECT_DIR$/build/CMakeFiles/RemoteControl.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/RemoteControl.dir/src/server/LineParser.cpp.o" afterPath="$PROJECT_DIR$/build/CMakeFiles/RemoteControl.dir/src/server/LineParser.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/RemoteTarget.dir/CXX.includecache" afterPath="$PROJECT_DIR$/build/CMakeFiles/RemoteTarget.dir/CXX.includecache" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/RemoteTarget.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/build/CMakeFiles/RemoteTarget.dir/DependInfo.cmake" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/RemoteTarget.dir/build.make" afterPath="$PROJECT_DIR$/build/CMakeFiles/RemoteTarget.dir/build.make" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/RemoteTarget.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/build/CMakeFiles/RemoteTarget.dir/cmake_clean.cmake" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/RemoteTarget.dir/depend.internal" afterPath="$PROJECT_DIR$/build/CMakeFiles/RemoteTarget.dir/depend.internal" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/RemoteTarget.dir/depend.make" afterPath="$PROJECT_DIR$/build/CMakeFiles/RemoteTarget.dir/depend.make" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/RemoteTarget.dir/link.txt" afterPath="$PROJECT_DIR$/build/CMakeFiles/RemoteTarget.dir/link.txt" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/RemoteTarget.dir/progress.make" afterPath="$PROJECT_DIR$/build/CMakeFiles/RemoteTarget.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/RemoteTarget.dir/src/client/Client.cpp.o" afterPath="$PROJECT_DIR$/build/CMakeFiles/RemoteTarget.dir/src/client/Client.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/RemoteTarget.dir/src/client/main.cpp.o" afterPath="$PROJECT_DIR$/build/CMakeFiles/RemoteTarget.dir/src/client/main.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" />
+      <change beforePath="$PROJECT_DIR$/build/Makefile" afterPath="$PROJECT_DIR$/build/Makefile" />
+      <change beforePath="$PROJECT_DIR$/build/RemoteControl" afterPath="$PROJECT_DIR$/build/RemoteControl" />
+      <change beforePath="$PROJECT_DIR$/build/RemoteTarget" afterPath="$PROJECT_DIR$/build/RemoteTarget" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/5" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteControl.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteControl.dir/CXX.includecache" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteControl.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteControl.dir/DependInfo.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteControl.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteControl.dir/build.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteControl.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteControl.dir/cmake_clean.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteControl.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteControl.dir/depend.internal" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteControl.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteControl.dir/depend.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteControl.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteControl.dir/link.txt" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteControl.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteControl.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteControl.dir/src/server/LineParser.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteControl.dir/src/server/LineParser.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteTarget.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteTarget.dir/DependInfo.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteTarget.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteTarget.dir/build.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteTarget.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteTarget.dir/cmake_clean.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteTarget.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteTarget.dir/link.txt" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteTarget.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteTarget.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/RemoteControl" afterPath="$PROJECT_DIR$/cmake-build-debug/RemoteControl" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/RemoteControl.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/RemoteControl.cbp" />
+      <change beforePath="$PROJECT_DIR$/include/Client.hh" afterPath="$PROJECT_DIR$/include/Client.hh" />
+      <change beforePath="$PROJECT_DIR$/include/RemoteControl.hh" afterPath="$PROJECT_DIR$/include/RemoteControl.hh" />
+      <change beforePath="$PROJECT_DIR$/include/Server.hh" afterPath="$PROJECT_DIR$/include/Server.hh" />
+      <change beforePath="$PROJECT_DIR$/include/ServerCommand.hh" afterPath="$PROJECT_DIR$/include/ServerCommand.hh" />
+      <change beforePath="$PROJECT_DIR$/src/client/Client.cpp" afterPath="$PROJECT_DIR$/src/client/Client.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/client/main.cpp" afterPath="$PROJECT_DIR$/src/client/main.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/server/LineParser.cpp" afterPath="$PROJECT_DIR$/src/server/LineParser.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/server/RemoteController.cpp" afterPath="$PROJECT_DIR$/src/server/RemoteController.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/server/Server.cpp" afterPath="$PROJECT_DIR$/src/server/Server.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/server/ServerCommand.cpp" afterPath="$PROJECT_DIR$/src/server/ServerCommand.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/server/main.cpp" afterPath="$PROJECT_DIR$/src/server/main.cpp" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,34 +113,24 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/server/main.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#19#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Server.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Server.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/server/Server.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="137" column="36" lean-forward="false" selection-start-line="137" selection-start-column="36" selection-end-line="137" selection-end-column="36" />
+            <state relative-caret-position="-1168">
+              <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RemoteControlException.hpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/RemoteControlException.hpp">
+      <file leaf-file-name="Client.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/client/Client.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="83" lean-forward="false" selection-start-line="19" selection-start-column="83" selection-end-line="19" selection-end-column="83" />
-              <folding />
+            <state relative-caret-position="742">
+              <caret line="100" column="46" lean-forward="true" selection-start-line="100" selection-start-column="46" selection-end-line="100" selection-end-column="46" />
+              <folding>
+                <element signature="e#79#106#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,30 +138,28 @@
       <file leaf-file-name="LineParser.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/server/LineParser.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-              <folding>
-                <element signature="e#79#96#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LineParser.hh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/LineParser.hh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="57" lean-forward="false" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
+            <state relative-caret-position="442">
+              <caret line="44" column="15" lean-forward="true" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Server.hh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/Server.hh">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="135">
+              <caret line="9" column="101" lean-forward="false" selection-start-line="9" selection-start-column="101" selection-end-line="9" selection-end-column="101" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RemoteControl.hh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/RemoteControl.hh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -112,8 +168,30 @@
       <file leaf-file-name="RemoteController.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/server/RemoteController.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="42" lean-forward="false" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+            <state relative-caret-position="435">
+              <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/client/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Client.hh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/Client.hh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="28" column="23" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -122,30 +200,18 @@
       <file leaf-file-name="ServerCommand.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/server/ServerCommand.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-              <folding>
-                <element signature="e#79#96#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServerCommand.hh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/ServerCommand.hh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="29" lean-forward="false" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+            <state relative-caret-position="507">
+              <caret line="69" column="27" lean-forward="false" selection-start-line="69" selection-start-column="27" selection-end-line="69" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RemoteController.hh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/RemoteController.hh">
+      <file leaf-file-name="Server.hh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/Server.hh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            <state relative-caret-position="312">
+              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="51" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -157,6 +223,10 @@
     <findStrings>
       <find>addComm</find>
       <find>ServerComma</find>
+      <find>ServerCo</find>
+      <find>target</find>
+      <find>Target</find>
+      <find>Command</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -171,26 +241,27 @@
         <option value="$PROJECT_DIR$/src/client/ClientException.cpp" />
         <option value="$PROJECT_DIR$/src/RemoteControlException.cpp" />
         <option value="$PROJECT_DIR$/include/RemoteControlException.hpp" />
-        <option value="$PROJECT_DIR$/include/Client.hh" />
         <option value="$PROJECT_DIR$/include/Socket.hh" />
         <option value="$PROJECT_DIR$/src/client/Socket.cpp" />
         <option value="$PROJECT_DIR$/src/client/Server.cpp" />
         <option value="$PROJECT_DIR$/src/client/clientMain.cpp" />
         <option value="$PROJECT_DIR$/src/server/serverMain.cpp" />
         <option value="$PROJECT_DIR$/include/RemoteControlServer.hh" />
-        <option value="$PROJECT_DIR$/src/client/main.cpp" />
-        <option value="$PROJECT_DIR$/include/RemoteControl.hh" />
         <option value="$PROJECT_DIR$/include/LineParser.hh" />
+        <option value="$PROJECT_DIR$/src/server/RemoteController.hh" />
+        <option value="$PROJECT_DIR$/include/RemoteController.hh" />
+        <option value="$PROJECT_DIR$/src/server/main.cpp" />
+        <option value="$PROJECT_DIR$/src/server/RemoteController.cpp" />
+        <option value="$PROJECT_DIR$/include/Server.hh" />
+        <option value="$PROJECT_DIR$/include/ServerCommand.hh" />
+        <option value="$PROJECT_DIR$/src/client/main.cpp" />
+        <option value="$PROJECT_DIR$/src/server/Server.cpp" />
+        <option value="$PROJECT_DIR$/include/RemoteControl.hh" />
+        <option value="$PROJECT_DIR$/include/Client.hh" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/src/server/LineParser.cpp" />
-        <option value="$PROJECT_DIR$/src/server/main.cpp" />
-        <option value="$PROJECT_DIR$/src/server/RemoteController.hh" />
-        <option value="$PROJECT_DIR$/src/server/RemoteController.cpp" />
-        <option value="$PROJECT_DIR$/include/RemoteController.hh" />
-        <option value="$PROJECT_DIR$/include/Server.hh" />
-        <option value="$PROJECT_DIR$/src/server/Server.cpp" />
         <option value="$PROJECT_DIR$/src/server/ServerCommand.cpp" />
-        <option value="$PROJECT_DIR$/include/ServerCommand.hh" />
+        <option value="$PROJECT_DIR$/src/client/Client.cpp" />
       </list>
     </option>
   </component>
@@ -307,10 +378,10 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.RemoteControl">
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="RemoteControl" RUN_TARGET_NAME="RemoteControl" EXPLICIT_BUILD_TARGET_NAME="all">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="RemoteControl" RUN_TARGET_NAME="RemoteTarget" EXPLICIT_BUILD_TARGET_NAME="all">
       <envs />
     </configuration>
-    <configuration name="RemoteControl" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="RemoteControl" TARGET_NAME="RemoteControl" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="RemoteControl" RUN_TARGET_NAME="RemoteControl">
+    <configuration name="RemoteControl" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="RemoteControl" TARGET_NAME="RemoteControl" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="RemoteControl" RUN_TARGET_NAME="RemoteTarget">
       <envs />
     </configuration>
     <configuration name="RemoteTarget" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="RemoteControl" TARGET_NAME="RemoteTarget" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="RemoteControl" RUN_TARGET_NAME="RemoteTarget">
@@ -336,30 +407,31 @@
       <option name="presentableId" value="Default" />
       <updated>1540302618313</updated>
       <workItem from="1540302619610" duration="31669000" />
-      <workItem from="1540391276179" duration="18000" />
+      <workItem from="1540391276179" duration="10619000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31687000" />
+    <option name="totallyTimeSpent" value="42288000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25274727" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32548618" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28761515" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25274727" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3285568" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -386,7 +458,7 @@
         <state relative-caret-position="165">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <element signature="e#0#19#0" expanded="false" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -438,7 +510,7 @@
         <state relative-caret-position="855">
           <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding>
-            <element signature="e#79#96#0" expanded="true" />
+            <element signature="e#79#96#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -471,6 +543,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="685" column="4" lean-forward="false" selection-start-line="685" selection-start-column="4" selection-end-line="685" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -479,76 +552,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="985" column="19" lean-forward="false" selection-start-line="985" selection-start-column="19" selection-end-line="985" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/Client.hh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RemoteControlException.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/RemoteControl.hh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/Client.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="101" lean-forward="false" selection-start-line="8" selection-start-column="101" selection-end-line="8" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#19#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/LineParser.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding>
-            <element signature="e#79#96#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/LineParser.hh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="57" lean-forward="false" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
           <folding />
         </state>
       </provider>
@@ -561,6 +564,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/include/LineParser.hh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="57" lean-forward="false" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/include/RemoteController.hh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -569,45 +580,121 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/RemoteController.cpp">
+    <entry file="file://$PROJECT_DIR$/include/ServerCommand.hh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="42" lean-forward="false" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+        <state relative-caret-position="165">
+          <caret line="11" column="59" lean-forward="false" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RemoteControlException.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/include/Server.hh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="312">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="51" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/ServerCommand.cpp">
+    <entry file="file://$PROJECT_DIR$/include/RemoteControl.hh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding>
-            <element signature="e#79#96#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="300">
+          <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/ServerCommand.hh">
+    <entry file="file://$PROJECT_DIR$/include/Client.hh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="29" lean-forward="false" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+        <state relative-caret-position="357">
+          <caret line="28" column="23" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="101" lean-forward="false" selection-start-line="9" selection-start-column="101" selection-end-line="9" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/arpa/inet.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="74" column="13" lean-forward="false" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/LineParser.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="44" column="15" lean-forward="true" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/server/Server.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="137" column="36" lean-forward="false" selection-start-line="137" selection-start-column="36" selection-end-line="137" selection-end-column="36" />
+        <state relative-caret-position="-1168">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/RemoteController.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/ServerCommand.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="69" column="27" lean-forward="false" selection-start-line="69" selection-start-column="27" selection-end-line="69" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/Client.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="742">
+          <caret line="100" column="46" lean-forward="true" selection-start-line="100" selection-start-column="46" selection-end-line="100" selection-end-column="46" />
+          <folding>
+            <element signature="e#79#106#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

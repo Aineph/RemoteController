@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/nicolas/Documents/Pangolin/RemoteControl/src/server/LineParser.cpp" "/Users/nicolas/Documents/Pangolin/RemoteControl/cmake-build-debug/CMakeFiles/RemoteControl.dir/src/server/LineParser.cpp.o"
   "/Users/nicolas/Documents/Pangolin/RemoteControl/src/server/RemoteController.cpp" "/Users/nicolas/Documents/Pangolin/RemoteControl/cmake-build-debug/CMakeFiles/RemoteControl.dir/src/server/RemoteController.cpp.o"
   "/Users/nicolas/Documents/Pangolin/RemoteControl/src/server/Server.cpp" "/Users/nicolas/Documents/Pangolin/RemoteControl/cmake-build-debug/CMakeFiles/RemoteControl.dir/src/server/Server.cpp.o"
+  "/Users/nicolas/Documents/Pangolin/RemoteControl/src/server/ServerCommand.cpp" "/Users/nicolas/Documents/Pangolin/RemoteControl/cmake-build-debug/CMakeFiles/RemoteControl.dir/src/server/ServerCommand.cpp.o"
   "/Users/nicolas/Documents/Pangolin/RemoteControl/src/server/main.cpp" "/Users/nicolas/Documents/Pangolin/RemoteControl/cmake-build-debug/CMakeFiles/RemoteControl.dir/src/server/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

@@ -126,13 +126,11 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/nicolas/Documents/Pangolin/RemoteControl/include/Client.hh">
-			<Option target="RemoteTarget"/>
-		</Unit>
 		<Unit filename="/Users/nicolas/Documents/Pangolin/RemoteControl/include/RemoteController.hh">
 			<Option target="RemoteControl"/>
 		</Unit>
 		<Unit filename="/Users/nicolas/Documents/Pangolin/RemoteControl/src/RemoteControlException.cpp">
+			<Option target="RemoteTarget"/>
 			<Option target="RemoteControl"/>
 		</Unit>
 		<Unit filename="/Users/nicolas/Documents/Pangolin/RemoteControl/src/client/Client.cpp">
@@ -148,6 +146,9 @@
 			<Option target="RemoteControl"/>
 		</Unit>
 		<Unit filename="/Users/nicolas/Documents/Pangolin/RemoteControl/src/server/Server.cpp">
+			<Option target="RemoteControl"/>
+		</Unit>
+		<Unit filename="/Users/nicolas/Documents/Pangolin/RemoteControl/src/server/ServerCommand.cpp">
 			<Option target="RemoteControl"/>
 		</Unit>
 		<Unit filename="/Users/nicolas/Documents/Pangolin/RemoteControl/src/server/main.cpp">

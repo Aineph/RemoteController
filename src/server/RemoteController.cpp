@@ -15,7 +15,7 @@ RemoteController::RemoteController(RemoteController const &other)
     this->setRemoteTarget(other.getRemoteTarget());
 }
 
-RemoteController::~RemoteController() = default
+RemoteController::~RemoteController()
 {
 }
 

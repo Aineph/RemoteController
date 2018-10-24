@@ -17,10 +17,10 @@
 #include <sstream>
 #include <LineParser.hh>
 #include <RemoteController.hh>
-#include <ServerCommand.hh>
 #include "RemoteControlException.hpp"
 #include "RemoteControl.hh"
 #include "Server.hh"
+#include "ServerCommand.hh"
 
 Server::Server()
 {
@@ -34,11 +34,11 @@ Server::Server()
     this->addr->sin_family = AF_INET;
     this->addr->sin_addr.s_addr = INADDR_ANY;
     this->addr->sin_port = htons(REMOTECONTROL_PORT);
+    this->setCurrentTarget(-1);
     if (bind(this->getFd(), (struct sockaddr *) this->getAddr(), sizeof(*(this->getAddr()))))
         throw RemoteControlException(std::string(BIND_ERROR));
     if (listen(this->getFd(), REMOTECONTROL_BACKLOG) == -1)
         throw RemoteControlException(std::string(LISTEN_ERROR));
-    this->target = -1;
 }
 
 Server::Server(Server const &other)
@@ -52,7 +52,7 @@ Server::~Server()
     std::map<std::string, int>::const_iterator iterator;
 
     if (this->addr != nullptr)
-        free(this->addr);
+        delete this->addr;
     if (this->fd != -1)
         close(this->fd);
     for (iterator = this->getClients().begin(); iterator != this->getClients().end(); iterator++)
@@ -78,13 +78,13 @@ void Server::readContent(Server *server)
     timeout.tv_usec = 10000;
     while (server->getRunningStatus())
     {
-        if (server->getTarget() > 0)
+        if (server->getCurrentTarget() > 0)
         {
             FD_ZERO(&set);
-            FD_SET(server->getTarget(), &set);
-            if (select(server->getTarget() + 1, &set, NULL, NULL, &timeout) > 0)
+            FD_SET(server->getCurrentTarget(), &set);
+            if (select(server->getCurrentTarget() + 1, &set, NULL, NULL, &timeout) > 0)
             {
-                if ((ret = read(server->getTarget(), buf, 4096)) > 0)
+                if ((ret = read(server->getCurrentTarget(), buf, 4096)) > 0)
                 {
                     buf[ret] = '\0';
                     mutex.lock();
@@ -94,50 +94,28 @@ void Server::readContent(Server *server)
             }
         }
     }
-    close(server->getTarget());
+    close(server->getCurrentTarget());
 }
-
-/*bool Server::processEntry(std::string &command)
-{
-    std::vector<std::string> words;
-    std::string word = "";
-    std::stringstream stream(command);
-    std::vector<ServerCommand>::const_iterator iterator;
-
-    while (stream >> word)
-    {
-        words.push_back(word);
-    }
-    if (words.size() > 0)
-        for (iterator = this->commands.begin(); iterator != this->commands.end(); iterator++)
-        {
-            if (!(*iterator).getCommandName().compare(words[0]))
-                (*iterator)(words, this);
-        }
-    else if (this->getTarget() != -1)
-    {
-        command += "\n";
-        write(this->getTarget(), command.c_str(), command.length());
-    }
-    return true;
-}*/
 
 bool Server::run()
 {
     RemoteController remoteController;
-    std::map<std::string, ServerCommand>
+    std::vector<ServerCommand> commands;
     LineParser lineParser;
     std::thread acceptingThread(acceptConnections, this);
     std::thread clientReader(readContent, this);
 
     this->setRunningStatus(true);
+    commands.emplace_back(ServerCommand("list", ServerCommand::list));
+    commands.emplace_back(ServerCommand("attack", ServerCommand::attack));
+    commands.emplace_back(ServerCommand("exit", ServerCommand::exit));
     acceptingThread.detach();
     clientReader.detach();
     while (this->getRunningStatus())
     {
         std::cout << REMOTECONTROL_PROMPT;
         lineParser.getUserEntry();
-//        this->processEntry(command);
+        ServerCommand::execute(commands, lineParser, this);
     }
     return true;
 }
@@ -147,29 +125,15 @@ void Server::addClient(std::string const &ip, const int fd)
     this->clients[ip] = fd;
 }
 
-void Server::list(std::vector<std::string>, Server *server)
-{
-    std::map<std::string, int>::const_iterator iterator;
-    int i = 0;
-
-    for (iterator = server->getClients().begin(); iterator != server->getClients().end(); iterator++)
-    {
-        std::cout << "Client n° " << i++ << ": " << iterator->first << std::endl;
-    }
-}
-
-void Server::exit(std::vector<std::string>, Server *server)
-{
-    server->setRunningStatus(false);
-}
-
 void Server::acceptConnections(Server *server)
 {
     struct sockaddr_in client;
     size_t clientLength;
     int clientFd = -1;
+    std::string message;
     std::mutex mutex;
 
+    message = "\nLa cible a été mise à jour\n" + std::string(REMOTECONTROL_PROMPT);
     while (server->getRunningStatus())
     {
         clientLength = sizeof(client);
@@ -178,10 +142,10 @@ void Server::acceptConnections(Server *server)
         {
             mutex.lock();
             server->addClient(std::string(inet_ntoa(client.sin_addr)), clientFd);
-            if (server->getTarget() == -1)
+            if (server->getCurrentTarget() == -1)
             {
-                write(1, "\nLa cible a été mise à jour.\n", strlen("\nLa cible a été mise à jour.\n"));
-                server->setTarget(clientFd);
+                write(1, message.c_str(), message.length());
+                server->setCurrentTarget(clientFd);
             }
             mutex.unlock();
         }
@@ -228,12 +192,12 @@ void Server::setClients(std::map<std::string, int> const &clients)
     this->clients = clients;
 }
 
-const int Server::getTarget() const
+const int Server::getCurrentTarget() const
 {
-    return this->target;
+    return this->currentTarget;
 }
 
-void Server::setTarget(const int target)
+void Server::setCurrentTarget(const int currentTarget)
 {
-    this->target = target;
+    this->currentTarget = currentTarget;
 }

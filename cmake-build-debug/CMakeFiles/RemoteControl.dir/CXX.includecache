@@ -12,6 +12,8 @@
 
 ../include/RemoteControlException.hpp
 
+../include/RemoteController.hh
+
 ../include/Server.hh
 
 ../include/ServerCommand.hh
@@ -35,6 +37,10 @@ iostream
 -
 LineParser.hh
 /Users/nicolas/Documents/Pangolin/RemoteControl/src/server/LineParser.hh
+
+/Users/nicolas/Documents/Pangolin/RemoteControl/src/server/RemoteController.cpp
+RemoteController.hh
+/Users/nicolas/Documents/Pangolin/RemoteControl/src/server/RemoteController.hh
 
 /Users/nicolas/Documents/Pangolin/RemoteControl/src/server/Server.cpp
 sys/socket.h
@@ -61,7 +67,9 @@ vector
 -
 sstream
 -
-ServerCommand.hh
+LineParser.hh
+-
+RemoteController.hh
 -
 RemoteControlException.hpp
 /Users/nicolas/Documents/Pangolin/RemoteControl/src/server/RemoteControlException.hpp
@@ -69,6 +77,8 @@ RemoteControl.hh
 /Users/nicolas/Documents/Pangolin/RemoteControl/src/server/RemoteControl.hh
 Server.hh
 /Users/nicolas/Documents/Pangolin/RemoteControl/src/server/Server.hh
+ServerCommand.hh
+-
 
 /Users/nicolas/Documents/Pangolin/RemoteControl/src/server/ServerCommand.cpp
 string
@@ -76,6 +86,10 @@ string
 map
 -
 vector
+-
+LineParser.hh
+-
+zconf.h
 -
 Server.hh
 /Users/nicolas/Documents/Pangolin/RemoteControl/src/server/Server.hh
@@ -87,9 +101,13 @@ iostream
 -
 map
 -
-ServerCommand.hh
+vector
+-
+LineParser.hh
 -
 Server.hh
+-
+ServerCommand.hh
 -
 RemoteControlException.hpp
 -

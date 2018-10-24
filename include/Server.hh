@@ -11,13 +11,9 @@ class Server
 private:
     struct sockaddr_in *addr;
     int fd;
-    int target;
+    int currentTarget;
     bool runningStatus;
     std::map<std::string, int> clients;
-
-    static void list(std::vector<std::string>, Server *server);
-
-    static void exit(std::vector<std::string>, Server *server);
 
     static void acceptConnections(Server *server);
 
@@ -59,9 +55,9 @@ public:
 
     void setClients(std::map<std::string, int> const &clients);
 
-    const int getTarget() const;
+    const int getCurrentTarget() const;
 
-    void setTarget(const int target);
+    void setCurrentTarget(const int currentTarget);
 
 };
 
