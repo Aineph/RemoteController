@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Client.hh
+
+/Users/nicolas/Documents/Pangolin/RemoteControl/src/client/Client.cpp
+Client.hh
+/Users/nicolas/Documents/Pangolin/RemoteControl/src/client/Client.hh
+
+/Users/nicolas/Documents/Pangolin/RemoteControl/src/client/main.cpp
+iostream
+-
+
