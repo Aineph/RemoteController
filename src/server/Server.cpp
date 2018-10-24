@@ -113,7 +113,6 @@ bool Server::run()
     clientReader.detach();
     while (this->getRunningStatus())
     {
-        std::cout << REMOTECONTROL_PROMPT;
         lineParser.getUserEntry();
         ServerCommand::execute(commands, lineParser, this);
     }
@@ -133,7 +132,7 @@ void Server::acceptConnections(Server *server)
     std::string message;
     std::mutex mutex;
 
-    message = "\nLa cible a été mise à jour\n" + std::string(REMOTECONTROL_PROMPT);
+    message = "La cible a été mise à jour\n";
     while (server->getRunningStatus())
     {
         clientLength = sizeof(client);

@@ -17,8 +17,9 @@
 #include <LineParser.hh>
 #include "Client.hh"
 
-Client::Client(std::string const &serverAddress)
+Client::Client(std::string const &serverAddress, std::string const &userName)
 {
+    this->setUserName(userName);
     this->setServerAddress(serverAddress);
     if ((this->addr = (struct sockaddr_in *) malloc(sizeof(*(this->getAddr())))) == nullptr)
         throw RemoteControlException(std::string(MALLOC_ERROR));
@@ -70,8 +71,10 @@ Client Client::operator=(Client const &other)
 void Client::run()
 {
     LineParser lineParser;
+    std::string prompt = "\e[32m" + this->getUserName() + "~> " + "\e[39m";
 
     this->setRunningStatus(true);
+    write(1, prompt.c_str(), prompt.length());
     while (this->getRunningStatus())
     {
         lineParser.getUserEntry();
@@ -79,6 +82,7 @@ void Client::run()
             chdir(lineParser.getWords()[1].c_str());
         else if (!lineParser.getLine().empty())
             system(lineParser.getLine().c_str());
+        write(1, prompt.c_str(), prompt.length());
     }
 }
 
@@ -90,6 +94,16 @@ struct sockaddr_in *Client::getAddr() const
 void Client::setAddr(struct sockaddr_in *addr)
 {
     this->addr = addr;
+}
+
+std::string const& Client::getUserName() const
+{
+    return this->userName;
+}
+
+void Client::setUserName(std::string const &userName)
+{
+    this->userName = userName;
 }
 
 std::string const &Client::getServerAddress() const

@@ -12,11 +12,12 @@ class Client
 private:
     struct sockaddr_in *addr;
     std::string serverAddress;
+    std::string userName;
     int fd;
     bool runningStatus;
 
 public:
-    Client(std::string const &serverAddress);
+    Client(std::string const &serverAddress, std::string const &userName);
 
     Client(Client const &other);
 
@@ -29,6 +30,10 @@ public:
     struct sockaddr_in *getAddr() const;
 
     void setAddr(struct sockaddr_in *addr);
+
+    std::string const &getUserName() const;
+
+    void setUserName(std::string const &userName);
 
     std::string const &getServerAddress() const;
 
