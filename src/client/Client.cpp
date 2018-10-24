@@ -42,7 +42,6 @@ Client::Client(std::string const &serverAddress)
         this->addr->sin_addr.s_addr = inet_addr(this->getServerAddress().c_str());
     this->addr->sin_family = AF_INET;
     this->addr->sin_port = htons(REMOTECONTROL_PORT);
-    std::cout << this->getServerAddress().c_str() << std::endl;
     if (connect(this->getFd(), (struct sockaddr *) this->getAddr(), sizeof(*(this->getAddr()))) == -1)
         throw RemoteControlException(CONNECT_ERROR);
     if (dup2(this->getFd(), 0) == -1)
