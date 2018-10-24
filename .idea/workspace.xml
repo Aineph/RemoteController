@@ -35,17 +35,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7d7e27ae-1c25-42ac-9f90-cca784afd24f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/RemoteControl.dir/CXX.includecache" afterPath="$PROJECT_DIR$/build/CMakeFiles/RemoteControl.dir/CXX.includecache" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/RemoteControl.dir/src/server/Server.cpp.o" afterPath="$PROJECT_DIR$/build/CMakeFiles/RemoteControl.dir/src/server/Server.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/RemoteTarget.dir/CXX.includecache" afterPath="$PROJECT_DIR$/build/CMakeFiles/RemoteTarget.dir/CXX.includecache" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/RemoteTarget.dir/src/client/Client.cpp.o" afterPath="$PROJECT_DIR$/build/CMakeFiles/RemoteTarget.dir/src/client/Client.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/RemoteTarget.dir/src/client/main.cpp.o" afterPath="$PROJECT_DIR$/build/CMakeFiles/RemoteTarget.dir/src/client/main.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/build/RemoteControl" afterPath="$PROJECT_DIR$/build/RemoteControl" />
-      <change beforePath="$PROJECT_DIR$/build/RemoteTarget" afterPath="$PROJECT_DIR$/build/RemoteTarget" />
-      <change beforePath="$PROJECT_DIR$/include/Client.hh" afterPath="$PROJECT_DIR$/include/Client.hh" />
-      <change beforePath="$PROJECT_DIR$/src/client/Client.cpp" afterPath="$PROJECT_DIR$/src/client/Client.cpp" />
-      <change beforePath="$PROJECT_DIR$/src/client/main.cpp" afterPath="$PROJECT_DIR$/src/client/main.cpp" />
-      <change beforePath="$PROJECT_DIR$/src/server/Server.cpp" afterPath="$PROJECT_DIR$/src/server/Server.cpp" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/src/server/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -72,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/src/server/Server.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
-              <caret line="110" column="29" lean-forward="true" selection-start-line="110" selection-start-column="29" selection-end-line="110" selection-end-column="29" />
+              <caret line="110" column="29" lean-forward="false" selection-start-line="110" selection-start-column="29" selection-end-line="110" selection-end-column="29" />
               <folding>
                 <element signature="e#79#102#0" expanded="true" />
               </folding>
@@ -92,21 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LineParser.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LineParser.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Server.hh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/Server.hh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="900">
-              <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+              <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -116,13 +96,13 @@
         <entry file="file://$PROJECT_DIR$/src/server/RemoteController.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="465">
-              <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+              <caret line="31" column="1" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/client/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
@@ -134,11 +114,24 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="30">
+                <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ServerCommand.hh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/ServerCommand.hh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
-              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -210,6 +203,7 @@
         <option value="$PROJECT_DIR$/src/client/main.cpp" />
         <option value="$PROJECT_DIR$/include/Client.hh" />
         <option value="$PROJECT_DIR$/src/client/Client.cpp" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -355,12 +349,12 @@
       <option name="presentableId" value="Default" />
       <updated>1540302618313</updated>
       <workItem from="1540302619610" duration="31669000" />
-      <workItem from="1540391276179" duration="13717000" />
+      <workItem from="1540391276179" duration="13921000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45386000" />
+    <option name="totallyTimeSpent" value="45590000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -565,7 +559,7 @@
     <entry file="file://$PROJECT_DIR$/src/LineParser.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -573,7 +567,7 @@
     <entry file="file://$PROJECT_DIR$/src/server/RemoteController.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
-          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+          <caret line="31" column="1" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -581,7 +575,7 @@
     <entry file="file://$PROJECT_DIR$/include/Server.hh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
-          <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -589,7 +583,7 @@
     <entry file="file://$PROJECT_DIR$/include/ServerCommand.hh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -605,7 +599,7 @@
     <entry file="file://$PROJECT_DIR$/src/server/Server.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="110" column="29" lean-forward="true" selection-start-line="110" selection-start-column="29" selection-end-line="110" selection-end-column="29" />
+          <caret line="110" column="29" lean-forward="false" selection-start-line="110" selection-start-column="29" selection-end-line="110" selection-end-column="29" />
           <folding>
             <element signature="e#79#102#0" expanded="true" />
           </folding>
@@ -615,7 +609,7 @@
     <entry file="file://$PROJECT_DIR$/src/server/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -645,6 +639,17 @@
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
