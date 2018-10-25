@@ -11,7 +11,6 @@
 #include <arpa/inet.h>
 #include <netdb.h>
 #include <zconf.h>
-#include <mutex>
 #include <iostream>
 #include <sstream>
 #include <vector>
