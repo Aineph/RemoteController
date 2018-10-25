@@ -23,7 +23,7 @@ public:
 
     const int getRemoteTarget() const;
 
-    void setRemoteTarget(const int remoteTarget);
+    void setRemoteTarget(int remoteTarget);
 };
 
 #endif //REMOTECONTROL_REMOTECONTROLLER_HH

@@ -89,12 +89,15 @@ void ServerCommand::list(std::vector<std::string> const &arguments, Server *serv
 void ServerCommand::attack(std::vector<std::string> const &arguments, Server *server)
 {
     std::string message;
+    int lastTarget;
 
     if (arguments.size() == 2 && server->getClients().count(arguments[1]) == 1)
     {
         message = "Target has been set to " + arguments[1] + "\n";
+        lastTarget = server->getCurrentTarget();
         server->setCurrentTarget(server->getClients().at(arguments[1]));
-        write(1, message.c_str(), message.length());
+        if (server->getCurrentTarget() == lastTarget)
+            write(1, message.c_str(), message.length());
     }
 }
 

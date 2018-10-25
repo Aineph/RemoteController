@@ -176,7 +176,7 @@ const bool Server::getRunningStatus() const
     return this->runningStatus;
 }
 
-void Server::setRunningStatus(const bool runningStatus)
+void Server::setRunningStatus(bool runningStatus)
 {
     this->runningStatus = runningStatus;
 }
@@ -196,7 +196,7 @@ const int Server::getCurrentTarget() const
     return this->currentTarget;
 }
 
-void Server::setCurrentTarget(const int currentTarget)
+void Server::setCurrentTarget(int currentTarget)
 {
     this->currentTarget = currentTarget;
 }

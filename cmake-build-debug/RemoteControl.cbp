@@ -81,8 +81,8 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nicolas/Documents/Pangolin/RemoteControl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="RemoteControl">
-				<Option output="/Users/nicolas/Documents/Pangolin/RemoteControl/cmake-build-debug/RemoteControl" prefix_auto="0" extension_auto="0"/>
+			<Target title="RemoteControler">
+				<Option output="/Users/nicolas/Documents/Pangolin/RemoteControl/cmake-build-debug/RemoteControler" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/nicolas/Documents/Pangolin/RemoteControl/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -97,14 +97,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/nicolas/Documents/Pangolin/RemoteControl/cmake-build-debug/Makefile&quot;  VERBOSE=1 RemoteControl"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/nicolas/Documents/Pangolin/RemoteControl/cmake-build-debug/Makefile&quot;  VERBOSE=1 RemoteControler"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nicolas/Documents/Pangolin/RemoteControl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nicolas/Documents/Pangolin/RemoteControl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nicolas/Documents/Pangolin/RemoteControl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="RemoteControl/fast">
-				<Option output="/Users/nicolas/Documents/Pangolin/RemoteControl/cmake-build-debug/RemoteControl" prefix_auto="0" extension_auto="0"/>
+			<Target title="RemoteControler/fast">
+				<Option output="/Users/nicolas/Documents/Pangolin/RemoteControl/cmake-build-debug/RemoteControler" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/nicolas/Documents/Pangolin/RemoteControl/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -119,7 +119,7 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/nicolas/Documents/Pangolin/RemoteControl/cmake-build-debug/Makefile&quot;  VERBOSE=1 RemoteControl/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/nicolas/Documents/Pangolin/RemoteControl/cmake-build-debug/Makefile&quot;  VERBOSE=1 RemoteControler/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nicolas/Documents/Pangolin/RemoteControl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nicolas/Documents/Pangolin/RemoteControl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nicolas/Documents/Pangolin/RemoteControl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -127,15 +127,15 @@
 			</Target>
 		</Build>
 		<Unit filename="/Users/nicolas/Documents/Pangolin/RemoteControl/include/RemoteController.hh">
-			<Option target="RemoteControl"/>
+			<Option target="RemoteControler"/>
 		</Unit>
 		<Unit filename="/Users/nicolas/Documents/Pangolin/RemoteControl/src/LineParser.cpp">
 			<Option target="RemoteTarget"/>
-			<Option target="RemoteControl"/>
+			<Option target="RemoteControler"/>
 		</Unit>
 		<Unit filename="/Users/nicolas/Documents/Pangolin/RemoteControl/src/RemoteControlException.cpp">
 			<Option target="RemoteTarget"/>
-			<Option target="RemoteControl"/>
+			<Option target="RemoteControler"/>
 		</Unit>
 		<Unit filename="/Users/nicolas/Documents/Pangolin/RemoteControl/src/client/Client.cpp">
 			<Option target="RemoteTarget"/>
@@ -144,16 +144,16 @@
 			<Option target="RemoteTarget"/>
 		</Unit>
 		<Unit filename="/Users/nicolas/Documents/Pangolin/RemoteControl/src/server/RemoteController.cpp">
-			<Option target="RemoteControl"/>
+			<Option target="RemoteControler"/>
 		</Unit>
 		<Unit filename="/Users/nicolas/Documents/Pangolin/RemoteControl/src/server/Server.cpp">
-			<Option target="RemoteControl"/>
+			<Option target="RemoteControler"/>
 		</Unit>
 		<Unit filename="/Users/nicolas/Documents/Pangolin/RemoteControl/src/server/ServerCommand.cpp">
-			<Option target="RemoteControl"/>
+			<Option target="RemoteControler"/>
 		</Unit>
 		<Unit filename="/Users/nicolas/Documents/Pangolin/RemoteControl/src/server/main.cpp">
-			<Option target="RemoteControl"/>
+			<Option target="RemoteControler"/>
 		</Unit>
 		<Unit filename="/Users/nicolas/Documents/Pangolin/RemoteControl/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

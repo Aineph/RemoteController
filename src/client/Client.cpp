@@ -62,7 +62,7 @@ Client::~Client()
         close(this->fd);
 }
 
-Client Client::operator=(Client const &other)
+Client &Client::operator=(Client const &other)
 {
     return *this;
 }
@@ -120,7 +120,7 @@ const int Client::getFd() const
     return this->fd;
 }
 
-void Client::setFd(const int fd)
+void Client::setFd(int fd)
 {
     this->fd = fd;
 }
@@ -130,7 +130,7 @@ const bool Client::getRunningStatus() const
     return this->runningStatus;
 }
 
-void Client::setRunningStatus(const bool runningStatus)
+void Client::setRunningStatus(bool runningStatus)
 {
     this->runningStatus = runningStatus;
 }

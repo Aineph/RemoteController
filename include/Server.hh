@@ -19,10 +19,6 @@ private:
 
     static void readContent(Server *server);
 
-    bool processEntry(std::string &command);
-
-    static void clientHandler(Server *server, struct sockaddr client, int clientFd);
-
 public:
 
     typedef void (*Command)(std::vector<std::string>, Server *);
@@ -31,7 +27,7 @@ public:
 
     Server(Server const &other);
 
-    ~Server();
+    virtual ~Server();
 
     Server &operator=(Server const &other);
 
@@ -45,11 +41,11 @@ public:
 
     const int getFd() const;
 
-    void setFd(const int fd);
+    void setFd(int fd);
 
     const bool getRunningStatus() const;
 
-    void setRunningStatus(const bool runningStatus);
+    void setRunningStatus(bool runningStatus);
 
     std::map<std::string, int> const &getClients() const;
 
@@ -57,7 +53,7 @@ public:
 
     const int getCurrentTarget() const;
 
-    void setCurrentTarget(const int currentTarget);
+    void setCurrentTarget(int currentTarget);
 
 };
 

@@ -17,13 +17,13 @@ private:
     bool runningStatus;
 
 public:
-    Client(std::string const &serverAddress, std::string const &userName);
+    explicit Client(std::string const &serverAddress, std::string const &userName);
 
     Client(Client const &other);
 
-    ~Client();
+    virtual ~Client();
 
-    Client operator=(Client const &other);
+    Client &operator=(Client const &other);
 
     void run();
 
@@ -41,11 +41,11 @@ public:
 
     const int getFd() const;
 
-    void setFd(const int fd);
+    void setFd(int fd);
 
     const bool getRunningStatus() const;
 
-    void setRunningStatus(const bool runningStatus);
+    void setRunningStatus(bool runningStatus);
 };
 
 

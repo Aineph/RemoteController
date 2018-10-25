@@ -17,7 +17,7 @@ public:
 
     LineParser(LineParser const &other);
 
-    ~LineParser();
+    virtual ~LineParser();
 
     LineParser &operator=(LineParser const &other);
 

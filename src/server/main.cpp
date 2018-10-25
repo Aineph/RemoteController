@@ -10,7 +10,7 @@ int main()
 {
     try
     {
-        Server *s = new Server();
+        auto *s = new Server();
         s->run();
     } catch (RemoteControlException &e)
     {

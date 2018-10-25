@@ -11,15 +11,15 @@ class RemoteControlException : public std::exception
 private:
     std::string message;
 public:
-    RemoteControlException(std::string const &message) throw();
+    explicit RemoteControlException(std::string const &message) noexcept;
 
-    RemoteControlException(RemoteControlException const &other) throw();
+    RemoteControlException(RemoteControlException const &other) noexcept;
 
-    ~RemoteControlException() throw();
+    virtual ~RemoteControlException() noexcept;
 
-    RemoteControlException &operator=(RemoteControlException const &other) throw();
+    RemoteControlException &operator=(RemoteControlException const &other) noexcept;
 
-    virtual const char *what(void) const throw();
+    virtual const char *what() const noexcept;
 
     std::string const &getMessage() const;
 

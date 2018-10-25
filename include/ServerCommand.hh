@@ -19,7 +19,7 @@ private:
 public:
     ServerCommand();
 
-    ServerCommand(std::string const &commandName, Command command);
+    explicit ServerCommand(std::string const &commandName, Command command);
 
     ServerCommand(ServerCommand const &other);
 
