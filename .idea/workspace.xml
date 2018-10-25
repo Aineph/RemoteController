@@ -35,6 +35,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7d7e27ae-1c25-42ac-9f90-cca784afd24f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteControl.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteControl.dir/flags.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteTarget.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteTarget.dir/flags.make" />
       <change beforePath="$PROJECT_DIR$/src/LineParser.cpp" afterPath="$PROJECT_DIR$/src/LineParser.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -83,8 +85,8 @@
       <file leaf-file-name="LineParser.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LineParser.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="42" column="4" lean-forward="false" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+            <state relative-caret-position="294">
+              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -351,7 +353,7 @@
       <option name="presentableId" value="Default" />
       <updated>1540302618313</updated>
       <workItem from="1540302619610" duration="31669000" />
-      <workItem from="1540391276179" duration="18282000" />
+      <workItem from="1540391276179" duration="18414000" />
     </task>
     <task id="LOCAL-00001" summary="[UPDATE] Older cmake and g++ versions">
       <created>1540486159364</created>
@@ -409,11 +411,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540487634580</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="[UPDATE] Older cmake and g++ versions">
+      <created>1540487767952</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1540487767952</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49951000" />
+    <option name="totallyTimeSpent" value="50083000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -710,8 +719,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LineParser.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="42" column="4" lean-forward="false" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+        <state relative-caret-position="294">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding />
         </state>
       </provider>
