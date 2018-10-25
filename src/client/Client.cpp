@@ -81,6 +81,8 @@ void Client::run()
             chdir(lineParser.getWords()[1].c_str());
         else if (!lineParser.getLine().empty())
             system(lineParser.getLine().c_str());
+        else
+            continue;
         write(1, prompt.c_str(), prompt.length());
     }
 }
