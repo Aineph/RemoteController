@@ -21,7 +21,7 @@ Client::Client(std::string const &serverAddress, std::string const &userName)
 {
     this->setUserName(userName);
     this->setServerAddress(serverAddress);
-    if ((this->addr = (struct sockaddr_in *) malloc(sizeof(*(this->getAddr())))) == nullptr)
+    if ((this->addr = (struct sockaddr_in *) malloc(sizeof(*(this->getAddr())))) == NULL)
         throw RemoteControlException(std::string(MALLOC_ERROR));
     if ((this->fd = socket(AF_INET, SOCK_STREAM, 0)) == -1)
         throw RemoteControlException(std::string(SOCKET_ERROR));
@@ -30,10 +30,10 @@ Client::Client(std::string const &serverAddress, std::string const &userName)
         struct hostent *he;
         struct in_addr **addrList;
 
-        if ((he = gethostbyname(this->getServerAddress().c_str())) == nullptr)
+        if ((he = gethostbyname(this->getServerAddress().c_str())) == NULL)
             throw RemoteControlException(GETHOSTBYNAME_ERROR);
         addrList = (struct in_addr **) he->h_addr_list;
-        for (int i = 0; addrList[i] != nullptr; i++)
+        for (int i = 0; addrList[i] != NULL; i++)
         {
             this->addr->sin_addr = *addrList[i];
             break;
@@ -57,7 +57,7 @@ Client::Client(Client const &other)
 
 Client::~Client()
 {
-    if (this->addr != nullptr)
+    if (this->addr != NULL)
         delete this->addr;
     if (this->fd != -1)
         close(this->fd);
