@@ -37,11 +37,10 @@ LineParser &LineParser::operator=(LineParser const &other)
 
 void LineParser::getUserEntry()
 {
-    std::stringstream stream;
-    std::string word;
-
     std::getline(std::cin, this->line);
-    stream = std::stringstream(this->getLine());
+    std::stringstream stream = std::stringstream(this->getLine());
+    std::string word;
+    
     this->words.clear();
     while (stream >> word)
     {
