@@ -17,7 +17,7 @@ RemoteControlException::RemoteControlException(RemoteControlException const &oth
     this->setMessage(other.getMessage());
 }
 
-RemoteControlException::~RemoteControlException() noexcept
+RemoteControlException::~RemoteControlException() throw()
 {
 }
 
