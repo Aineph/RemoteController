@@ -34,58 +34,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d7e27ae-1c25-42ac-9f90-cca784afd24f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteControl.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteControl.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteControl.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteControl.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteControl.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteControl.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteControl.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteControl.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteControl.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteControl.dir/src/RemoteControlException.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteControl.dir/src/server/LineParser.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteControl.dir/src/server/RemoteController.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteControl.dir/src/server/Server.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteControl.dir/src/server/ServerCommand.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteControl.dir/src/server/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteTarget.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteTarget.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteTarget.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteTarget.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/RemoteControl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/RemoteControl.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/RemoteControl.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Client.hh" beforeDir="false" afterPath="$PROJECT_DIR$/include/Client.hh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/LineParser.hh" beforeDir="false" afterPath="$PROJECT_DIR$/include/LineParser.hh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/RemoteControlException.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/RemoteControlException.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/RemoteController.hh" beforeDir="false" afterPath="$PROJECT_DIR$/include/RemoteController.hh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Server.hh" beforeDir="false" afterPath="$PROJECT_DIR$/include/Server.hh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/ServerCommand.hh" beforeDir="false" afterPath="$PROJECT_DIR$/include/ServerCommand.hh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RemoteControlException.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/RemoteControlException.cpp" afterDir="false" />
+    <list default="true" id="7d7e27ae-1c25-42ac-9f90-cca784afd24f" name="Default" comment="[UPDATE] Older cmake and g++ versions">
       <change beforePath="$PROJECT_DIR$/src/client/Client.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/Client.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/RemoteController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/RemoteController.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/Server.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/Server.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/server/ServerCommand.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/ServerCommand.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -107,7 +58,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="83" />
+          <entry key="cpp" value="211" />
           <entry key="hh" value="63" />
           <entry key="hpp" value="16" />
           <entry key="txt" value="2" />
@@ -116,7 +67,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="2" />
-          <entry key="ObjectiveC" value="162" />
+          <entry key="ObjectiveC" value="290" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -160,11 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/server/ServerCommand.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="568">
-              <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
+            <state relative-caret-position="350">
+              <caret line="63" column="14" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -226,11 +177,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/client/Client.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-468">
-              <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+            <state relative-caret-position="718">
+              <caret line="81" column="29" selection-start-line="81" selection-start-column="29" selection-end-line="81" selection-end-column="29" />
               <folding>
                 <element signature="e#79#97#0" expanded="true" />
               </folding>
@@ -279,7 +230,6 @@
         <option value="$PROJECT_DIR$/src/LineParser.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/src/RemoteControlException.cpp" />
-        <option value="$PROJECT_DIR$/src/client/Client.cpp" />
         <option value="$PROJECT_DIR$/include/ServerCommand.hh" />
         <option value="$PROJECT_DIR$/include/Server.hh" />
         <option value="$PROJECT_DIR$/include/RemoteController.hh" />
@@ -290,6 +240,7 @@
         <option value="$PROJECT_DIR$/src/server/RemoteController.cpp" />
         <option value="$PROJECT_DIR$/src/server/Server.cpp" />
         <option value="$PROJECT_DIR$/src/server/ServerCommand.cpp" />
+        <option value="$PROJECT_DIR$/src/client/Client.cpp" />
       </list>
     </option>
   </component>
@@ -401,7 +352,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RemoteControler">
+  <component name="RunManager" selected="Application.Build All">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="RemoteControl" RUN_TARGET_NAME="RemoteTarget" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -438,7 +389,7 @@
       <workItem from="1540491946291" duration="180000" />
       <workItem from="1540492170719" duration="223000" />
       <workItem from="1540492599518" duration="125000" />
-      <workItem from="1540492759657" duration="1488000" />
+      <workItem from="1540492759657" duration="3131000" />
     </task>
     <task id="LOCAL-00001" summary="[UPDATE] Older cmake and g++ versions">
       <created>1540486159364</created>
@@ -510,17 +461,24 @@
       <option name="project" value="LOCAL" />
       <updated>1540487900560</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="[UPDATE] Older cmake and g++ versions">
+      <created>1540494579449</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1540494579449</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52438000" />
+    <option name="totallyTimeSpent" value="54081000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26495728" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26495728" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -535,7 +493,7 @@
       <window_info anchor="bottom" id="TeamCity" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32958034" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.501221" side_tool="true" weight="0.32857144" />
-      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.3244898" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.3244898" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -654,16 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/Client.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-468">
-          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
-          <folding>
-            <element signature="e#79#97#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -694,8 +642,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/server/ServerCommand.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
+        <state relative-caret-position="350">
+          <caret line="63" column="14" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/Client.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="718">
+          <caret line="81" column="29" selection-start-line="81" selection-start-column="29" selection-end-line="81" selection-end-column="29" />
+          <folding>
+            <element signature="e#79#97#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
