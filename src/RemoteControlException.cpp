@@ -7,12 +7,12 @@
 #include <string>
 #include "RemoteControlException.hpp"
 
-RemoteControlException::RemoteControlException(std::string const &message) noexcept
+RemoteControlException::RemoteControlException(std::string const &message) throw()
 {
     this->setMessage(message);
 }
 
-RemoteControlException::RemoteControlException(RemoteControlException const &other) noexcept
+RemoteControlException::RemoteControlException(RemoteControlException const &other) throw()
 {
     this->setMessage(other.getMessage());
 }
@@ -21,14 +21,14 @@ RemoteControlException::~RemoteControlException() noexcept
 {
 }
 
-RemoteControlException &RemoteControlException::operator=(RemoteControlException const &other) noexcept
+RemoteControlException &RemoteControlException::operator=(RemoteControlException const &other) throw()
 {
     if (this != &other)
         this->setMessage(other.getMessage());
     return *this;
 }
 
-char const *RemoteControlException::what() const noexcept
+char const *RemoteControlException::what() const throw()
 {
     return this->getMessage().c_str();
 }

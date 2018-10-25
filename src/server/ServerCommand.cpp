@@ -62,6 +62,7 @@ void ServerCommand::execute(std::vector<ServerCommand> const &commands, LinePars
             if (lineParser.getWords()[0] == (*iterator).getCommandName())
             {
                 (*iterator)(lineParser.getWords(), server);
+                write(server->getCurrentTarget(), "\n", 1);
                 isBuiltinCommand = true;
             }
         }
@@ -91,7 +92,7 @@ void ServerCommand::attack(std::vector<std::string> const &arguments, Server *se
 
     if (arguments.size() == 2 && server->getClients().count(arguments[1]) == 1)
     {
-        message = "Target has been set to " + arguments[1] + "\n" + REMOTECONTROL_PROMPT;
+        message = "Target has been set to " + arguments[1] + "\n";
         server->setCurrentTarget(server->getClients().at(arguments[1]));
         write(1, message.c_str(), message.length());
     }
