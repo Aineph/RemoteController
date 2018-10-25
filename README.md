@@ -1,3 +1,3 @@
 # RemoteController
 
-Programme permettant la manipulation à distance d'un ordinateur.
+Program allowing you to control one or several remote computers (Linux, Windows or Mac).
