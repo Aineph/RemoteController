@@ -15,7 +15,7 @@ public:
 
     RemoteControlException(RemoteControlException const &other) throw();
 
-    ~RemoteControlException() noexcept;
+    ~RemoteControlException() throw();
 
     RemoteControlException &operator=(RemoteControlException const &other) throw();
 
