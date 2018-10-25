@@ -3,6 +3,7 @@
  * Started on 23/10/2018.
  */
 
+#include <cstdlib>
 #include <RemoteControl.hh>
 #include <string>
 #include <RemoteControlException.hpp>
@@ -96,7 +97,7 @@ void Client::setAddr(struct sockaddr_in *addr)
     this->addr = addr;
 }
 
-std::string const& Client::getUserName() const
+std::string const &Client::getUserName() const
 {
     return this->userName;
 }
