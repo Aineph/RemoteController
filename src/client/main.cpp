@@ -12,11 +12,11 @@ int main(int argc, char **argv, char **env)
 {
     std::string userName;
 
-    if (argc != 2 || env == NULL)
+    if (argc != 2 || env == nullptr)
         return -1;
     try
     {
-        for (int i = 0; env[i] != NULL; i++) {
+        for (int i = 0; env[i] != nullptr; i++) {
             if (!strncmp(env[i], "USER=", 5))
                 userName = &env[i][5];
         }
