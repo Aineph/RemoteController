@@ -4,7 +4,7 @@
 	<Project>
 		<Option title="RemoteControl"/>
 		<Option makefile_is_custom="1"/>
-		<Option compiler="gcc"/>
+		<Option compiler="clang"/>
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
@@ -42,7 +42,7 @@
 				<Option working_dir="/Users/nicolas/Documents/Pangolin/RemoteControl/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="gcc"/>
+				<Option compiler="clang"/>
 				<Compiler>
 					<Add directory="/Users/nicolas/Documents/Pangolin/RemoteControl/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
@@ -64,7 +64,7 @@
 				<Option working_dir="/Users/nicolas/Documents/Pangolin/RemoteControl/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="gcc"/>
+				<Option compiler="clang"/>
 				<Compiler>
 					<Add directory="/Users/nicolas/Documents/Pangolin/RemoteControl/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
@@ -86,7 +86,7 @@
 				<Option working_dir="/Users/nicolas/Documents/Pangolin/RemoteControl/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="gcc"/>
+				<Option compiler="clang"/>
 				<Compiler>
 					<Add directory="/Users/nicolas/Documents/Pangolin/RemoteControl/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
@@ -108,7 +108,7 @@
 				<Option working_dir="/Users/nicolas/Documents/Pangolin/RemoteControl/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="gcc"/>
+				<Option compiler="clang"/>
 				<Compiler>
 					<Add directory="/Users/nicolas/Documents/Pangolin/RemoteControl/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>

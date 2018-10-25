@@ -11,7 +11,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/nicolas/Documents/Pangolin/RemoteControl/src/server/ServerCommand.cpp" "/Users/nicolas/Documents/Pangolin/RemoteControl/cmake-build-debug/CMakeFiles/RemoteControl.dir/src/server/ServerCommand.cpp.o"
   "/Users/nicolas/Documents/Pangolin/RemoteControl/src/server/main.cpp" "/Users/nicolas/Documents/Pangolin/RemoteControl/cmake-build-debug/CMakeFiles/RemoteControl.dir/src/server/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
