@@ -6,9 +6,9 @@
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <cstdlib>
+#include <unistd.h>
 #include <string>
 #include <arpa/inet.h>
-#include <zconf.h>
 #include <iostream>
 #include <thread>
 #include <map>

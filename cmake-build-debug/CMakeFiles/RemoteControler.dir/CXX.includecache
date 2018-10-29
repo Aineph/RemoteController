@@ -10,25 +10,47 @@
 
 ../include/RemoteControl.hh
 
+../include/RemoteControlException.hpp
+
+../include/RemoteController.hh
+
 ../include/Server.hh
 
 ../include/ServerCommand.hh
 
-/Users/nicolas/Documents/Pangolin/RemoteControl/src/server/ServerCommand.cpp
+/Users/nicolas/Documents/Pangolin/RemoteControl/src/server/Server.cpp
+sys/socket.h
+-
+netinet/in.h
+-
+cstdlib
+-
+cunistd
+-
 string
 -
-map
--
-vector
--
-LineParser.hh
--
-zconf.h
+arpa/inet.h
 -
 iostream
 -
-RemoteControl.hh
+thread
 -
+map
+-
+fcntl.h
+-
+vector
+-
+sstream
+-
+LineParser.hh
+-
+RemoteController.hh
+-
+RemoteControlException.hpp
+/Users/nicolas/Documents/Pangolin/RemoteControl/src/server/RemoteControlException.hpp
+RemoteControl.hh
+/Users/nicolas/Documents/Pangolin/RemoteControl/src/server/RemoteControl.hh
 Server.hh
 /Users/nicolas/Documents/Pangolin/RemoteControl/src/server/Server.hh
 ServerCommand.hh

@@ -10,7 +10,7 @@
 #include <sys/socket.h>
 #include <arpa/inet.h>
 #include <netdb.h>
-#include <zconf.h>
+#include <unistd.h>
 #include <iostream>
 #include <vector>
 #include <LineParser.hh>
