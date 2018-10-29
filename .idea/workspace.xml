@@ -25,7 +25,7 @@
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
       <config projectName="RemoteControl" targetName="RemoteTarget" />
-      <config projectName="RemoteControl" targetName="RemoteControler" />
+      <config projectName="RemoteControl" targetName="RemoteController" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -34,16 +34,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d7e27ae-1c25-42ac-9f90-cca784afd24f" name="Default" comment="[UPDATE] Added Windows support">
+    <list default="true" id="7d7e27ae-1c25-42ac-9f90-cca784afd24f" name="Default" comment="[UPDATE] Added Linux support">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteControler.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteControler.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteControler.dir/src/server/Server.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteTarget.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteTarget.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RemoteTarget.dir/src/client/Client.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/RemoteControler" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/RemoteControler" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/RemoteTarget" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/RemoteTarget" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/Client.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/Client.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/Server.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/Server.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/RemoteControl.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/RemoteControl.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/ServerCommand.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/ServerCommand.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,35 +65,35 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="261" />
+          <entry key="cpp" value="339" />
           <entry key="hh" value="63" />
           <entry key="hpp" value="16" />
           <entry key="md" value="173" />
-          <entry key="txt" value="27" />
+          <entry key="txt" value="83" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="2" />
+          <entry key="CMakeLists.txt" value="39" />
           <entry key="Markdown" value="173" />
-          <entry key="ObjectiveC" value="340" />
-          <entry key="PLAIN_TEXT" value="25" />
+          <entry key="ObjectiveC" value="418" />
+          <entry key="PLAIN_TEXT" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="16" />
+          <entry key="cpp" value="17" />
           <entry key="hh" value="10" />
           <entry key="hpp" value="1" />
           <entry key="md" value="2" />
-          <entry key="txt" value="1" />
+          <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CMakeLists.txt" value="1" />
+          <entry key="CMakeLists.txt" value="2" />
           <entry key="Markdown" value="2" />
-          <entry key="ObjectiveC" value="27" />
+          <entry key="ObjectiveC" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.cidr.testingFrameworks.usages" />
@@ -113,11 +111,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/server/Server.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+            <state relative-caret-position="99">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/server/ServerCommand.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -170,7 +186,6 @@
         <option value="$PROJECT_DIR$/include/RemoteControl.hh" />
         <option value="$PROJECT_DIR$/src/client/main.cpp" />
         <option value="$PROJECT_DIR$/src/LineParser.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/src/RemoteControlException.cpp" />
         <option value="$PROJECT_DIR$/include/ServerCommand.hh" />
         <option value="$PROJECT_DIR$/include/Server.hh" />
@@ -180,10 +195,11 @@
         <option value="$PROJECT_DIR$/include/Client.hh" />
         <option value="$PROJECT_DIR$/src/server/main.cpp" />
         <option value="$PROJECT_DIR$/src/server/RemoteController.cpp" />
-        <option value="$PROJECT_DIR$/src/server/ServerCommand.cpp" />
         <option value="$USER_HOME$/Downloads/template-master/css-generator/example.md" />
         <option value="$PROJECT_DIR$/src/client/Client.cpp" />
         <option value="$PROJECT_DIR$/src/server/Server.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/server/ServerCommand.cpp" />
       </list>
     </option>
   </component>
@@ -291,7 +307,7 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoteControler" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="RemoteControl" TARGET_NAME="RemoteControler" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="RemoteControl" RUN_TARGET_NAME="RemoteControler">
+    <configuration name="RemoteController" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="RemoteControl" TARGET_NAME="RemoteController" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="RemoteControl" RUN_TARGET_NAME="RemoteController">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -303,7 +319,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.Build All" />
-      <item itemvalue="Application.RemoteControler" />
+      <item itemvalue="Application.RemoteController" />
       <item itemvalue="Application.RemoteTarget" />
     </list>
   </component>
@@ -326,7 +342,7 @@
       <workItem from="1540728535708" duration="409000" />
       <workItem from="1540749197046" duration="2609000" />
       <workItem from="1540826061135" duration="770000" />
-      <workItem from="1540841845157" duration="85000" />
+      <workItem from="1540841845157" duration="352000" />
     </task>
     <task id="LOCAL-00001" summary="[UPDATE] Older cmake and g++ versions">
       <created>1540486159364</created>
@@ -419,11 +435,25 @@
       <option name="project" value="LOCAL" />
       <updated>1540826187623</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="[UPDATE] Added Linux support">
+      <created>1540841980628</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1540841980628</updated>
+    </task>
+    <task id="LOCAL-00015" summary="[UPDATE] Added Linux support">
+      <created>1540842142094</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1540842142094</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58942000" />
+    <option name="totallyTimeSpent" value="59209000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -440,11 +470,11 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="CMake" order="8" sideWeight="0.498779" weight="0.32857144" />
+      <window_info anchor="bottom" id="CMake" order="8" sideWeight="0.498779" visible="true" weight="0.32857144" />
       <window_info anchor="bottom" id="TeamCity" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32857144" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.501221" side_tool="true" weight="0.32857144" />
-      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.3244898" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3244898" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -462,7 +492,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[UPDATE] Older cmake and g++ versions" />
     <MESSAGE value="[UPDATE] Added Windows support" />
-    <option name="LAST_COMMIT_MESSAGE" value="[UPDATE] Added Windows support" />
+    <MESSAGE value="[UPDATE] Added Linux support" />
+    <option name="LAST_COMMIT_MESSAGE" value="[UPDATE] Added Linux support" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/sys/socket.h">
@@ -530,22 +561,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/template-master/tuto/example.md" />
     <entry file="file://$USER_HOME$/Downloads/template-master/css-generator/example.md" />
-    <entry file="file://$PROJECT_DIR$/src/server/ServerCommand.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="63" column="14" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LineParser.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -600,8 +617,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/server/Server.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        <state relative-caret-position="99">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/ServerCommand.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
         </state>
       </provider>
     </entry>

@@ -51,5 +51,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/RemoteTarget.dir/DependInfo.cmake"
-  "CMakeFiles/RemoteControler.dir/DependInfo.cmake"
+  "CMakeFiles/RemoteController.dir/DependInfo.cmake"
   )

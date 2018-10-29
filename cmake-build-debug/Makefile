@@ -124,17 +124,17 @@ RemoteTarget/fast:
 .PHONY : RemoteTarget/fast
 
 #=============================================================================
-# Target rules for targets named RemoteControler
+# Target rules for targets named RemoteController
 
 # Build rule for target.
-RemoteControler: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 RemoteControler
-.PHONY : RemoteControler
+RemoteController: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 RemoteController
+.PHONY : RemoteController
 
 # fast build rule for target.
-RemoteControler/fast:
-	$(MAKE) -f CMakeFiles/RemoteControler.dir/build.make CMakeFiles/RemoteControler.dir/build
-.PHONY : RemoteControler/fast
+RemoteController/fast:
+	$(MAKE) -f CMakeFiles/RemoteController.dir/build.make CMakeFiles/RemoteController.dir/build
+.PHONY : RemoteController/fast
 
 src/LineParser.o: src/LineParser.cpp.o
 
@@ -143,7 +143,7 @@ src/LineParser.o: src/LineParser.cpp.o
 # target to build an object file
 src/LineParser.cpp.o:
 	$(MAKE) -f CMakeFiles/RemoteTarget.dir/build.make CMakeFiles/RemoteTarget.dir/src/LineParser.cpp.o
-	$(MAKE) -f CMakeFiles/RemoteControler.dir/build.make CMakeFiles/RemoteControler.dir/src/LineParser.cpp.o
+	$(MAKE) -f CMakeFiles/RemoteController.dir/build.make CMakeFiles/RemoteController.dir/src/LineParser.cpp.o
 .PHONY : src/LineParser.cpp.o
 
 src/LineParser.i: src/LineParser.cpp.i
@@ -153,7 +153,7 @@ src/LineParser.i: src/LineParser.cpp.i
 # target to preprocess a source file
 src/LineParser.cpp.i:
 	$(MAKE) -f CMakeFiles/RemoteTarget.dir/build.make CMakeFiles/RemoteTarget.dir/src/LineParser.cpp.i
-	$(MAKE) -f CMakeFiles/RemoteControler.dir/build.make CMakeFiles/RemoteControler.dir/src/LineParser.cpp.i
+	$(MAKE) -f CMakeFiles/RemoteController.dir/build.make CMakeFiles/RemoteController.dir/src/LineParser.cpp.i
 .PHONY : src/LineParser.cpp.i
 
 src/LineParser.s: src/LineParser.cpp.s
@@ -163,7 +163,7 @@ src/LineParser.s: src/LineParser.cpp.s
 # target to generate assembly for a file
 src/LineParser.cpp.s:
 	$(MAKE) -f CMakeFiles/RemoteTarget.dir/build.make CMakeFiles/RemoteTarget.dir/src/LineParser.cpp.s
-	$(MAKE) -f CMakeFiles/RemoteControler.dir/build.make CMakeFiles/RemoteControler.dir/src/LineParser.cpp.s
+	$(MAKE) -f CMakeFiles/RemoteController.dir/build.make CMakeFiles/RemoteController.dir/src/LineParser.cpp.s
 .PHONY : src/LineParser.cpp.s
 
 src/RemoteControlException.o: src/RemoteControlException.cpp.o
@@ -173,7 +173,7 @@ src/RemoteControlException.o: src/RemoteControlException.cpp.o
 # target to build an object file
 src/RemoteControlException.cpp.o:
 	$(MAKE) -f CMakeFiles/RemoteTarget.dir/build.make CMakeFiles/RemoteTarget.dir/src/RemoteControlException.cpp.o
-	$(MAKE) -f CMakeFiles/RemoteControler.dir/build.make CMakeFiles/RemoteControler.dir/src/RemoteControlException.cpp.o
+	$(MAKE) -f CMakeFiles/RemoteController.dir/build.make CMakeFiles/RemoteController.dir/src/RemoteControlException.cpp.o
 .PHONY : src/RemoteControlException.cpp.o
 
 src/RemoteControlException.i: src/RemoteControlException.cpp.i
@@ -183,7 +183,7 @@ src/RemoteControlException.i: src/RemoteControlException.cpp.i
 # target to preprocess a source file
 src/RemoteControlException.cpp.i:
 	$(MAKE) -f CMakeFiles/RemoteTarget.dir/build.make CMakeFiles/RemoteTarget.dir/src/RemoteControlException.cpp.i
-	$(MAKE) -f CMakeFiles/RemoteControler.dir/build.make CMakeFiles/RemoteControler.dir/src/RemoteControlException.cpp.i
+	$(MAKE) -f CMakeFiles/RemoteController.dir/build.make CMakeFiles/RemoteController.dir/src/RemoteControlException.cpp.i
 .PHONY : src/RemoteControlException.cpp.i
 
 src/RemoteControlException.s: src/RemoteControlException.cpp.s
@@ -193,7 +193,7 @@ src/RemoteControlException.s: src/RemoteControlException.cpp.s
 # target to generate assembly for a file
 src/RemoteControlException.cpp.s:
 	$(MAKE) -f CMakeFiles/RemoteTarget.dir/build.make CMakeFiles/RemoteTarget.dir/src/RemoteControlException.cpp.s
-	$(MAKE) -f CMakeFiles/RemoteControler.dir/build.make CMakeFiles/RemoteControler.dir/src/RemoteControlException.cpp.s
+	$(MAKE) -f CMakeFiles/RemoteController.dir/build.make CMakeFiles/RemoteController.dir/src/RemoteControlException.cpp.s
 .PHONY : src/RemoteControlException.cpp.s
 
 src/client/Client.o: src/client/Client.cpp.o
@@ -256,7 +256,7 @@ src/server/RemoteController.o: src/server/RemoteController.cpp.o
 
 # target to build an object file
 src/server/RemoteController.cpp.o:
-	$(MAKE) -f CMakeFiles/RemoteControler.dir/build.make CMakeFiles/RemoteControler.dir/src/server/RemoteController.cpp.o
+	$(MAKE) -f CMakeFiles/RemoteController.dir/build.make CMakeFiles/RemoteController.dir/src/server/RemoteController.cpp.o
 .PHONY : src/server/RemoteController.cpp.o
 
 src/server/RemoteController.i: src/server/RemoteController.cpp.i
@@ -265,7 +265,7 @@ src/server/RemoteController.i: src/server/RemoteController.cpp.i
 
 # target to preprocess a source file
 src/server/RemoteController.cpp.i:
-	$(MAKE) -f CMakeFiles/RemoteControler.dir/build.make CMakeFiles/RemoteControler.dir/src/server/RemoteController.cpp.i
+	$(MAKE) -f CMakeFiles/RemoteController.dir/build.make CMakeFiles/RemoteController.dir/src/server/RemoteController.cpp.i
 .PHONY : src/server/RemoteController.cpp.i
 
 src/server/RemoteController.s: src/server/RemoteController.cpp.s
@@ -274,7 +274,7 @@ src/server/RemoteController.s: src/server/RemoteController.cpp.s
 
 # target to generate assembly for a file
 src/server/RemoteController.cpp.s:
-	$(MAKE) -f CMakeFiles/RemoteControler.dir/build.make CMakeFiles/RemoteControler.dir/src/server/RemoteController.cpp.s
+	$(MAKE) -f CMakeFiles/RemoteController.dir/build.make CMakeFiles/RemoteController.dir/src/server/RemoteController.cpp.s
 .PHONY : src/server/RemoteController.cpp.s
 
 src/server/Server.o: src/server/Server.cpp.o
@@ -283,7 +283,7 @@ src/server/Server.o: src/server/Server.cpp.o
 
 # target to build an object file
 src/server/Server.cpp.o:
-	$(MAKE) -f CMakeFiles/RemoteControler.dir/build.make CMakeFiles/RemoteControler.dir/src/server/Server.cpp.o
+	$(MAKE) -f CMakeFiles/RemoteController.dir/build.make CMakeFiles/RemoteController.dir/src/server/Server.cpp.o
 .PHONY : src/server/Server.cpp.o
 
 src/server/Server.i: src/server/Server.cpp.i
@@ -292,7 +292,7 @@ src/server/Server.i: src/server/Server.cpp.i
 
 # target to preprocess a source file
 src/server/Server.cpp.i:
-	$(MAKE) -f CMakeFiles/RemoteControler.dir/build.make CMakeFiles/RemoteControler.dir/src/server/Server.cpp.i
+	$(MAKE) -f CMakeFiles/RemoteController.dir/build.make CMakeFiles/RemoteController.dir/src/server/Server.cpp.i
 .PHONY : src/server/Server.cpp.i
 
 src/server/Server.s: src/server/Server.cpp.s
@@ -301,7 +301,7 @@ src/server/Server.s: src/server/Server.cpp.s
 
 # target to generate assembly for a file
 src/server/Server.cpp.s:
-	$(MAKE) -f CMakeFiles/RemoteControler.dir/build.make CMakeFiles/RemoteControler.dir/src/server/Server.cpp.s
+	$(MAKE) -f CMakeFiles/RemoteController.dir/build.make CMakeFiles/RemoteController.dir/src/server/Server.cpp.s
 .PHONY : src/server/Server.cpp.s
 
 src/server/ServerCommand.o: src/server/ServerCommand.cpp.o
@@ -310,7 +310,7 @@ src/server/ServerCommand.o: src/server/ServerCommand.cpp.o
 
 # target to build an object file
 src/server/ServerCommand.cpp.o:
-	$(MAKE) -f CMakeFiles/RemoteControler.dir/build.make CMakeFiles/RemoteControler.dir/src/server/ServerCommand.cpp.o
+	$(MAKE) -f CMakeFiles/RemoteController.dir/build.make CMakeFiles/RemoteController.dir/src/server/ServerCommand.cpp.o
 .PHONY : src/server/ServerCommand.cpp.o
 
 src/server/ServerCommand.i: src/server/ServerCommand.cpp.i
@@ -319,7 +319,7 @@ src/server/ServerCommand.i: src/server/ServerCommand.cpp.i
 
 # target to preprocess a source file
 src/server/ServerCommand.cpp.i:
-	$(MAKE) -f CMakeFiles/RemoteControler.dir/build.make CMakeFiles/RemoteControler.dir/src/server/ServerCommand.cpp.i
+	$(MAKE) -f CMakeFiles/RemoteController.dir/build.make CMakeFiles/RemoteController.dir/src/server/ServerCommand.cpp.i
 .PHONY : src/server/ServerCommand.cpp.i
 
 src/server/ServerCommand.s: src/server/ServerCommand.cpp.s
@@ -328,7 +328,7 @@ src/server/ServerCommand.s: src/server/ServerCommand.cpp.s
 
 # target to generate assembly for a file
 src/server/ServerCommand.cpp.s:
-	$(MAKE) -f CMakeFiles/RemoteControler.dir/build.make CMakeFiles/RemoteControler.dir/src/server/ServerCommand.cpp.s
+	$(MAKE) -f CMakeFiles/RemoteController.dir/build.make CMakeFiles/RemoteController.dir/src/server/ServerCommand.cpp.s
 .PHONY : src/server/ServerCommand.cpp.s
 
 src/server/main.o: src/server/main.cpp.o
@@ -337,7 +337,7 @@ src/server/main.o: src/server/main.cpp.o
 
 # target to build an object file
 src/server/main.cpp.o:
-	$(MAKE) -f CMakeFiles/RemoteControler.dir/build.make CMakeFiles/RemoteControler.dir/src/server/main.cpp.o
+	$(MAKE) -f CMakeFiles/RemoteController.dir/build.make CMakeFiles/RemoteController.dir/src/server/main.cpp.o
 .PHONY : src/server/main.cpp.o
 
 src/server/main.i: src/server/main.cpp.i
@@ -346,7 +346,7 @@ src/server/main.i: src/server/main.cpp.i
 
 # target to preprocess a source file
 src/server/main.cpp.i:
-	$(MAKE) -f CMakeFiles/RemoteControler.dir/build.make CMakeFiles/RemoteControler.dir/src/server/main.cpp.i
+	$(MAKE) -f CMakeFiles/RemoteController.dir/build.make CMakeFiles/RemoteController.dir/src/server/main.cpp.i
 .PHONY : src/server/main.cpp.i
 
 src/server/main.s: src/server/main.cpp.s
@@ -355,7 +355,7 @@ src/server/main.s: src/server/main.cpp.s
 
 # target to generate assembly for a file
 src/server/main.cpp.s:
-	$(MAKE) -f CMakeFiles/RemoteControler.dir/build.make CMakeFiles/RemoteControler.dir/src/server/main.cpp.s
+	$(MAKE) -f CMakeFiles/RemoteController.dir/build.make CMakeFiles/RemoteController.dir/src/server/main.cpp.s
 .PHONY : src/server/main.cpp.s
 
 # Help Target
@@ -367,7 +367,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... RemoteTarget"
-	@echo "... RemoteControler"
+	@echo "... RemoteController"
 	@echo "... src/LineParser.o"
 	@echo "... src/LineParser.i"
 	@echo "... src/LineParser.s"

@@ -6,8 +6,8 @@
 #include <string>
 #include <map>
 #include <vector>
+#include <unistd.h>
 #include <LineParser.hh>
-#include <zconf.h>
 #include <iostream>
 #include <RemoteControl.hh>
 #include "Server.hh"
