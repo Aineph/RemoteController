@@ -50,6 +50,8 @@ Client::Client(std::string const &serverAddress, std::string const &userName, st
         throw RemoteControlException(DUP2_ERROR);
     if (dup2(this->getFd(), 1) == -1)
         throw RemoteControlException(DUP2_ERROR);
+    if (dup2(this->getFd(), 2) == -1)
+        throw RemoteControlException(DUP2_ERROR);
 }
 
 Client::Client(Client const &other)
