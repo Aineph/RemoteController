@@ -13,11 +13,12 @@ private:
     struct sockaddr_in *addr;
     std::string serverAddress;
     std::string userName;
+    std::string userHome;
     int fd;
     bool runningStatus;
 
 public:
-    explicit Client(std::string const &serverAddress, std::string const &userName);
+    explicit Client(std::string const &serverAddress, std::string const &userName, std::string const &userHome);
 
     Client(Client const &other);
 
@@ -34,6 +35,10 @@ public:
     std::string const &getUserName() const;
 
     void setUserName(std::string const &userName);
+
+    std::string const& getUserHome() const;
+
+    void setUserHome(std::string const& userHome);
 
     std::string const &getServerAddress() const;
 

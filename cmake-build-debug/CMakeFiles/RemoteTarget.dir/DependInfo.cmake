@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/nicolas/Documents/Pangolin/RemoteControl/src/LineParser.cpp" "/Users/nicolas/Documents/Pangolin/RemoteControl/cmake-build-debug/CMakeFiles/RemoteTarget.dir/src/LineParser.cpp.o"
   "/Users/nicolas/Documents/Pangolin/RemoteControl/src/RemoteControlException.cpp" "/Users/nicolas/Documents/Pangolin/RemoteControl/cmake-build-debug/CMakeFiles/RemoteTarget.dir/src/RemoteControlException.cpp.o"
   "/Users/nicolas/Documents/Pangolin/RemoteControl/src/client/Client.cpp" "/Users/nicolas/Documents/Pangolin/RemoteControl/cmake-build-debug/CMakeFiles/RemoteTarget.dir/src/client/Client.cpp.o"
+  "/Users/nicolas/Documents/Pangolin/RemoteControl/src/client/CommandInterpreter.cpp" "/Users/nicolas/Documents/Pangolin/RemoteControl/cmake-build-debug/CMakeFiles/RemoteTarget.dir/src/client/CommandInterpreter.cpp.o"
   "/Users/nicolas/Documents/Pangolin/RemoteControl/src/client/main.cpp" "/Users/nicolas/Documents/Pangolin/RemoteControl/cmake-build-debug/CMakeFiles/RemoteTarget.dir/src/client/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")

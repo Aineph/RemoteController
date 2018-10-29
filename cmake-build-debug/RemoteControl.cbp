@@ -126,6 +126,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/nicolas/Documents/Pangolin/RemoteControl/include/CommandInterpreter.hh">
+			<Option target="RemoteTarget"/>
+		</Unit>
 		<Unit filename="/Users/nicolas/Documents/Pangolin/RemoteControl/include/RemoteController.hh">
 			<Option target="RemoteController"/>
 		</Unit>
@@ -138,6 +141,9 @@
 			<Option target="RemoteController"/>
 		</Unit>
 		<Unit filename="/Users/nicolas/Documents/Pangolin/RemoteControl/src/client/Client.cpp">
+			<Option target="RemoteTarget"/>
+		</Unit>
+		<Unit filename="/Users/nicolas/Documents/Pangolin/RemoteControl/src/client/CommandInterpreter.cpp">
 			<Option target="RemoteTarget"/>
 		</Unit>
 		<Unit filename="/Users/nicolas/Documents/Pangolin/RemoteControl/src/client/main.cpp">

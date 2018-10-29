@@ -223,6 +223,33 @@ src/client/Client.cpp.s:
 	$(MAKE) -f CMakeFiles/RemoteTarget.dir/build.make CMakeFiles/RemoteTarget.dir/src/client/Client.cpp.s
 .PHONY : src/client/Client.cpp.s
 
+src/client/CommandInterpreter.o: src/client/CommandInterpreter.cpp.o
+
+.PHONY : src/client/CommandInterpreter.o
+
+# target to build an object file
+src/client/CommandInterpreter.cpp.o:
+	$(MAKE) -f CMakeFiles/RemoteTarget.dir/build.make CMakeFiles/RemoteTarget.dir/src/client/CommandInterpreter.cpp.o
+.PHONY : src/client/CommandInterpreter.cpp.o
+
+src/client/CommandInterpreter.i: src/client/CommandInterpreter.cpp.i
+
+.PHONY : src/client/CommandInterpreter.i
+
+# target to preprocess a source file
+src/client/CommandInterpreter.cpp.i:
+	$(MAKE) -f CMakeFiles/RemoteTarget.dir/build.make CMakeFiles/RemoteTarget.dir/src/client/CommandInterpreter.cpp.i
+.PHONY : src/client/CommandInterpreter.cpp.i
+
+src/client/CommandInterpreter.s: src/client/CommandInterpreter.cpp.s
+
+.PHONY : src/client/CommandInterpreter.s
+
+# target to generate assembly for a file
+src/client/CommandInterpreter.cpp.s:
+	$(MAKE) -f CMakeFiles/RemoteTarget.dir/build.make CMakeFiles/RemoteTarget.dir/src/client/CommandInterpreter.cpp.s
+.PHONY : src/client/CommandInterpreter.cpp.s
+
 src/client/main.o: src/client/main.cpp.o
 
 .PHONY : src/client/main.o
@@ -377,6 +404,9 @@ help:
 	@echo "... src/client/Client.o"
 	@echo "... src/client/Client.i"
 	@echo "... src/client/Client.s"
+	@echo "... src/client/CommandInterpreter.o"
+	@echo "... src/client/CommandInterpreter.i"
+	@echo "... src/client/CommandInterpreter.s"
 	@echo "... src/client/main.o"
 	@echo "... src/client/main.i"
 	@echo "... src/client/main.s"

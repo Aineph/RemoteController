@@ -14,11 +14,13 @@
 #include <iostream>
 #include <vector>
 #include <LineParser.hh>
+#include <CommandInterpreter.hh>
 #include "Client.hh"
 
-Client::Client(std::string const &serverAddress, std::string const &userName)
+Client::Client(std::string const &serverAddress, std::string const &userName, std::string const& userHome)
 {
     this->setUserName(userName);
+    this->setUserHome(userHome);
     this->setServerAddress(serverAddress);
     if ((this->addr = (struct sockaddr_in *) malloc(sizeof(*(this->getAddr())))) == nullptr)
         throw RemoteControlException(std::string(MALLOC_ERROR));
@@ -70,16 +72,20 @@ Client &Client::operator=(Client const &other)
 void Client::run()
 {
     LineParser lineParser;
-    std::string prompt = "\e[32m" + this->getUserName() + "~> " + "\e[39m";
+    CommandInterpreter commandInterpreter(this->getUserHome());
+    std::string prompt;
 
     this->setRunningStatus(true);
     while (this->getRunningStatus())
     {
         lineParser.getUserEntry();
-        if (lineParser.getWords().size() == 2 && lineParser.getWords()[0] == "cd")
-            chdir(lineParser.getWords()[1].c_str());
-        else if (!lineParser.getLine().empty())
-            system(lineParser.getLine().c_str());
+        if (!lineParser.getWords().empty())
+        {
+            commandInterpreter.setCommand(lineParser.getWords()[0]);
+            commandInterpreter.setArguments(lineParser.getWords());
+            commandInterpreter.execute();
+        }
+        prompt = "\e[32m" + this->getUserName() + ":" + commandInterpreter.getCurrentDirectory() + "~> " + "\e[39m";
         write(1, prompt.c_str(), prompt.length());
     }
 }
@@ -102,6 +108,16 @@ std::string const &Client::getUserName() const
 void Client::setUserName(std::string const &userName)
 {
     this->userName = userName;
+}
+
+std::string const& Client::getUserHome() const
+{
+    return this->userHome;
+}
+
+void Client::setUserHome(std::string const &userHome)
+{
+    this->userHome = userHome;
 }
 
 std::string const &Client::getServerAddress() const
