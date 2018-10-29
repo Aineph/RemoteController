@@ -8,9 +8,12 @@
 #include <cstdlib>
 #include <unistd.h>
 #include <string>
+#include <cstring>
+#include <strings.h>
 #include <arpa/inet.h>
 #include <iostream>
 #include <thread>
+#include <mutex>
 #include <map>
 #include <fcntl.h>
 #include <vector>
