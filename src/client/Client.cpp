@@ -73,7 +73,6 @@ void Client::run()
     std::string prompt = "\e[32m" + this->getUserName() + "~> " + "\e[39m";
 
     this->setRunningStatus(true);
-    write(1, prompt.c_str(), prompt.length());
     while (this->getRunningStatus())
     {
         lineParser.getUserEntry();
@@ -81,8 +80,6 @@ void Client::run()
             chdir(lineParser.getWords()[1].c_str());
         else if (!lineParser.getLine().empty())
             system(lineParser.getLine().c_str());
-        else
-            continue;
         write(1, prompt.c_str(), prompt.length());
     }
 }

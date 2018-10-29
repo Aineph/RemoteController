@@ -14,26 +14,6 @@
 
 ../include/RemoteControlException.hpp
 
-/Users/nicolas/Documents/Pangolin/RemoteControl/src/LineParser.cpp
-string
--
-sstream
--
-vector
--
-iostream
--
-LineParser.hh
-/Users/nicolas/Documents/Pangolin/RemoteControl/src/LineParser.hh
-
-/Users/nicolas/Documents/Pangolin/RemoteControl/src/RemoteControlException.cpp
-exception
--
-string
--
-RemoteControlException.hpp
-/Users/nicolas/Documents/Pangolin/RemoteControl/src/RemoteControlException.hpp
-
 /Users/nicolas/Documents/Pangolin/RemoteControl/src/client/Client.cpp
 cstdlib
 -
@@ -59,14 +39,4 @@ LineParser.hh
 -
 Client.hh
 /Users/nicolas/Documents/Pangolin/RemoteControl/src/client/Client.hh
-
-/Users/nicolas/Documents/Pangolin/RemoteControl/src/client/main.cpp
-cstring
--
-iostream
--
-Client.hh
--
-RemoteControlException.hpp
--
 

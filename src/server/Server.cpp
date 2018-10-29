@@ -145,6 +145,7 @@ void Server::acceptConnections(Server *server)
             {
                 write(1, message.c_str(), message.length());
                 server->setCurrentTarget(clientFd);
+                write(server->getCurrentTarget(), "\n", 1);
             }
             mutex.unlock();
         }
