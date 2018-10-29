@@ -1,4 +1,0 @@
-/Users/nicolas/Documents/Pangolin/RemoteControl/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/nicolas/Documents/Pangolin/RemoteControl/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/nicolas/Documents/Pangolin/RemoteControl/cmake-build-debug/CMakeFiles/RemoteTarget.dir
-/Users/nicolas/Documents/Pangolin/RemoteControl/cmake-build-debug/CMakeFiles/RemoteController.dir

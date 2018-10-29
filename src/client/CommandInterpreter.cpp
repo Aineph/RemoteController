@@ -90,7 +90,6 @@ void CommandInterpreter::changeDirectory()
         if ((len = argument.copy(&buffer[0], end - begin - 1, begin + 1)) > 0)
         {
             buffer[len] = '\0';
-            write(1, buffer, len);
             this->setLastDirectory(this->getCurrentDirectory());
             chdir(buffer);
         }
