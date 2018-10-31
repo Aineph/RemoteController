@@ -111,7 +111,7 @@ bool Server::run()
     this->setRunningStatus(true);
     commands.emplace_back(ServerCommand("list", ServerCommand::list));
     commands.emplace_back(ServerCommand("attack", ServerCommand::attack));
-    commands.emplace_back(ServerCommand("exit", ServerCommand::exit));
+    commands.emplace_back(ServerCommand("quit", ServerCommand::exit));
     acceptingThread.detach();
     clientReader.detach();
     while (this->getRunningStatus())

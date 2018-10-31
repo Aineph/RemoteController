@@ -15,6 +15,7 @@ private:
     std::string userName;
     std::string userHome;
     int fd;
+    int mode;
     bool runningStatus;
 
 public:
@@ -48,10 +49,13 @@ public:
 
     void setFd(int fd);
 
+    const int getMode() const;
+
+    void setMode(int mode);
+
     const bool getRunningStatus() const;
 
     void setRunningStatus(bool runningStatus);
 };
-
 
 #endif //REMOTECONTROL_CLIENT_HH
