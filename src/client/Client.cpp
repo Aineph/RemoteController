@@ -21,6 +21,7 @@ Client::Client(std::string const &serverAddress, std::string const &userName, st
 {
     this->setUserName(userName);
     this->setUserHome(userHome);
+    this->setMode(0);
     this->setServerAddress(serverAddress);
     if ((this->addr = (struct sockaddr_in *) malloc(sizeof(*(this->getAddr())))) == nullptr)
         throw RemoteControlException(std::string(MALLOC_ERROR));
@@ -140,6 +141,16 @@ const int Client::getFd() const
 void Client::setFd(int fd)
 {
     this->fd = fd;
+}
+
+const int Client::getMode() const
+{
+    return this->mode;
+}
+
+void Client::setMode(int mode)
+{
+    this->mode = mode;
 }
 
 const bool Client::getRunningStatus() const
