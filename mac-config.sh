@@ -12,7 +12,7 @@ fi
 
 mkdir -p $DESTINATION_DIR
 cp $SOURCE_DIR/$BINARY_NAME $DESTINATION_DIR/
-echo "nohup $DESTINATION_DIR/$BINARY_NAME $1 2>/dev/null 1>/dev/null &" >> $HOME/.bashrc
-source $HOME/.bashrc
+echo "nohup $DESTINATION_DIR/$BINARY_NAME $1 2>/dev/null 1>/dev/null &" >> $HOME/.bash_profile
+source $HOME/.bash_profile
 rm -rf $REMOTE_CONTROLLER_DIR
 exit 0
